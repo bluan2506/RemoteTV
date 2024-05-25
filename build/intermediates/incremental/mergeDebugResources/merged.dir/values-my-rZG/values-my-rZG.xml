@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="notification_disconnect_action">"အဆက္အသြယ္ဖ်က္သည္။"</string>
+    <string name="notification_remote_camera_desc">"ဖုန္း ကင္မရာ လုပ်ဆောင်နေပါသည်။"</string>
+    <string name="notification_remote_camera_title">"ဖုန္း ကင္မရာ"</string>
+    <string name="notification_screen_sharing_desc">"ချိတ်ဆက်ထားသောကိရိယာကို မ်က္ႏွာျပင္ကုိ မွ်ေဝျခင္း တွင်သတ်မှတ်ထားသည်။"</string>
+    <string name="notification_screen_sharing_title">"မ်က္ႏွာျပင္ကုိ မွ်ေဝျခင္း"</string>
+</resources>
