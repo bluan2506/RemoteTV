@@ -1,0 +1,70 @@
+[
+    {
+        "merged": "C:\\Users\\Luaan\\AndroidStudioProjects\\connectsdk\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_media_player.xml",
+        "source": "C:\\Users\\Luaan\\AndroidStudioProjects\\connectsdk\\res\\layout\\fragment_media_player.xml"
+    },
+    {
+        "merged": "C:\\Users\\Luaan\\AndroidStudioProjects\\connectsdk\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_app.xml",
+        "source": "C:\\Users\\Luaan\\AndroidStudioProjects\\connectsdk\\res\\layout\\fragment_app.xml"
+    },
+    {
+        "merged": "C:\\Users\\Luaan\\AndroidStudioProjects\\connectsdk\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_connect.xml",
+        "source": "C:\\Users\\Luaan\\AndroidStudioProjects\\connectsdk\\res\\layout\\activity_connect.xml"
+    },
+    {
+        "merged": "C:\\Users\\Luaan\\AndroidStudioProjects\\connectsdk\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_webapp.xml",
+        "source": "C:\\Users\\Luaan\\AndroidStudioProjects\\connectsdk\\res\\layout\\fragment_webapp.xml"
+    },
+    {
+        "merged": "C:\\Users\\Luaan\\AndroidStudioProjects\\connectsdk\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\item_device.xml",
+        "source": "C:\\Users\\Luaan\\AndroidStudioProjects\\connectsdk\\res\\layout\\item_device.xml"
+    },
+    {
+        "merged": "C:\\Users\\Luaan\\AndroidStudioProjects\\connectsdk\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_apps.xml",
+        "source": "C:\\Users\\Luaan\\AndroidStudioProjects\\connectsdk\\res\\layout\\fragment_apps.xml"
+    },
+    {
+        "merged": "C:\\Users\\Luaan\\AndroidStudioProjects\\connectsdk\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_fiveway.xml",
+        "source": "C:\\Users\\Luaan\\AndroidStudioProjects\\connectsdk\\res\\layout\\fragment_fiveway.xml"
+    },
+    {
+        "merged": "C:\\Users\\Luaan\\AndroidStudioProjects\\connectsdk\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_main.xml",
+        "source": "C:\\Users\\Luaan\\AndroidStudioProjects\\connectsdk\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\Luaan\\AndroidStudioProjects\\connectsdk\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_mainn.xml",
+        "source": "C:\\Users\\Luaan\\AndroidStudioProjects\\connectsdk\\res\\layout\\activity_mainn.xml"
+    },
+    {
+        "merged": "C:\\Users\\Luaan\\AndroidStudioProjects\\connectsdk\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_tv.xml",
+        "source": "C:\\Users\\Luaan\\AndroidStudioProjects\\connectsdk\\res\\layout\\fragment_tv.xml"
+    },
+    {
+        "merged": "C:\\Users\\Luaan\\AndroidStudioProjects\\connectsdk\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\app_item.xml",
+        "source": "C:\\Users\\Luaan\\AndroidStudioProjects\\connectsdk\\res\\layout\\app_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\Luaan\\AndroidStudioProjects\\connectsdk\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_remote.xml",
+        "source": "C:\\Users\\Luaan\\AndroidStudioProjects\\connectsdk\\res\\layout\\fragment_remote.xml"
+    },
+    {
+        "merged": "C:\\Users\\Luaan\\AndroidStudioProjects\\connectsdk\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_system.xml",
+        "source": "C:\\Users\\Luaan\\AndroidStudioProjects\\connectsdk\\res\\layout\\fragment_system.xml"
+    },
+    {
+        "merged": "C:\\Users\\Luaan\\AndroidStudioProjects\\connectsdk\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_setting.xml",
+        "source": "C:\\Users\\Luaan\\AndroidStudioProjects\\connectsdk\\res\\layout\\fragment_setting.xml"
+    },
+    {
+        "merged": "C:\\Users\\Luaan\\AndroidStudioProjects\\connectsdk\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\channel_item.xml",
+        "source": "C:\\Users\\Luaan\\AndroidStudioProjects\\connectsdk\\res\\layout\\channel_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\Luaan\\AndroidStudioProjects\\connectsdk\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_cast.xml",
+        "source": "C:\\Users\\Luaan\\AndroidStudioProjects\\connectsdk\\res\\layout\\fragment_cast.xml"
+    },
+    {
+        "merged": "C:\\Users\\Luaan\\AndroidStudioProjects\\connectsdk\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_navigation_drawer.xml",
+        "source": "C:\\Users\\Luaan\\AndroidStudioProjects\\connectsdk\\res\\layout\\fragment_navigation_drawer.xml"
+    }
+]
