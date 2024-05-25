@@ -1,7 +1,56 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.viewpager.widget.ViewPager xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/pager"
+    android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity" />
+    android:background="@drawable/bg_main"
+    tools:context=".activity.MainActivity">
+
+    <RelativeLayout
+        android:id="@+id/tab"
+        android:background="@drawable/bg_tab"
+        android:layout_alignParentTop="true"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize">
+        <ImageView
+            android:layout_marginStart="@dimen/_14sdp"
+            android:layout_centerVertical="true"
+            android:src="@drawable/ic_premium"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:textSize="24sp"
+            android:textColor="@color/white"
+            android:text="@string/tv_remote"
+            android:fontFamily="@font/chakra_petch_medium"
+            android:layout_centerInParent="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <ImageView
+            android:id="@+id/btnConnect"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="@dimen/_14sdp"
+            android:layout_centerVertical="true"
+            android:src="@drawable/ic_no_connect"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    </RelativeLayout>
+
+    <me.ibrahimsn.lib.SmoothBottomBar
+        android:id="@+id/botNav"
+        app:menu="@menu/menu"
+        app:backgroundColor="#1F2B55"
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"/>
+
+    <androidx.viewpager2.widget.ViewPager2
+        android:id="@+id/viewPager"
+        android:layout_above="@id/botNav"
+        android:layout_below="@id/tab"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+</RelativeLayout>

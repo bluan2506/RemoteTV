@@ -215,7 +215,7 @@ public class AppsFragment extends BaseFragment {
             }
         }
 
-        myAppButton.setEnabled(getTv().hasCapability("Launcher.Levak"));
+        myAppButton.setEnabled(getTv().hasCapability("Launcher.Luan"));
         myAppButton.setOnClickListener(myAppLaunch);
 
         appStoreButton.setEnabled(getTv().hasCapability(Launcher.AppStore_Params));
@@ -232,7 +232,7 @@ public class AppsFragment extends BaseFragment {
                 myAppSession = null;
                 myAppButton.setSelected(false);
             } else {
-                getLauncher().launchApp("Levak", new AppLaunchListener() {
+                getLauncher().launchApp("Luan", new AppLaunchListener() {
 
                     @Override
                     public void onError(ServiceCommandError error) {
@@ -312,6 +312,6 @@ public class AppsFragment extends BaseFragment {
     }
 
     protected String getToastIconData() {
-        return mContext.getString(R.string.toast_icon_data);
+        return "123";
     }
 }

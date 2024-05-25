@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-    <string name="notification_disconnect_action">"T98855"</string>
-    <string name="notification_remote_camera_desc">"K33546"</string>
-    <string name="notification_remote_camera_title">"K33545"</string>
-    <string name="notification_screen_sharing_desc">"K31846"</string>
-    <string name="notification_screen_sharing_title">"K31845"</string>
-</resources>

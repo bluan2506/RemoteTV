@@ -38,7 +38,6 @@ import com.connectsdk.device.ConnectableDeviceListener;
 import com.connectsdk.device.DevicePicker;
 import com.connectsdk.discovery.DiscoveryManager;
 import com.connectsdk.discovery.DiscoveryManager.PairingLevel;
-import com.connectsdk.discovery.DiscoveryProvider;
 import com.connectsdk.sampler.fragments.BaseFragment;
 import com.connectsdk.service.DeviceService;
 import com.connectsdk.service.DeviceService.PairingType;
@@ -131,7 +130,7 @@ public class MainActivity extends AppCompatActivity implements ActionBar.TabList
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_mainn);
 
         actionBar = getSupportActionBar();
         actionBar.setNavigationMode(ActionBar.NAVIGATION_MODE_TABS);

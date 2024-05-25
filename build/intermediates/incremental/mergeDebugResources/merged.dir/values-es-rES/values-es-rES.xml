@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-    <string name="notification_disconnect_action">"Desconectar"</string>
-    <string name="notification_remote_camera_desc">"Cámara Teléfono está en marcha."</string>
-    <string name="notification_remote_camera_title">"Cámara Teléfono"</string>
-    <string name="notification_screen_sharing_desc">"El dispositivo conectado se ha establecido en el modo compartir pantalla."</string>
-    <string name="notification_screen_sharing_title">"Compartir Pantalla"</string>
-</resources>

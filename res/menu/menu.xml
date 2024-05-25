@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/icRemote"
+        android:title="@string/remote"
+        android:icon="@drawable/ic_remote"/>
+    <item
+        android:id="@+id/icApp"
+        android:title="@string/app"
+        android:icon="@drawable/ic_app"/>
+    <item
+        android:id="@+id/icCast"
+        android:title="@string/cast"
+        android:icon="@drawable/ic_cast"/>
+    <item
+        android:id="@+id/icSetting"
+        android:title="@string/setting"
+        android:icon="@drawable/ic_setting"/>
+</menu>

@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-    <string name="notification_disconnect_action">"Салгах"</string>
-    <string name="notification_remote_camera_desc">"Гар утас камер ажиллаж байна."</string>
-    <string name="notification_remote_camera_title">"Гар утас камер"</string>
-    <string name="notification_screen_sharing_desc">"Холбогдсон төхөөрөмжийг дэлгэцний мэдээллийг хуваалцаж байна болгож тохируулсан."</string>
-    <string name="notification_screen_sharing_title">"Дэлгэцний Мэдээллийг Хуваалцаж Байна"</string>
-</resources>
