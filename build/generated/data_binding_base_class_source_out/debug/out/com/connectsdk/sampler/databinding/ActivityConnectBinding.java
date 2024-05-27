@@ -5,13 +5,14 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
+import android.widget.LinearLayout;
 import android.widget.RelativeLayout;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
+import androidx.recyclerview.widget.RecyclerView;
 import androidx.viewbinding.ViewBinding;
 import androidx.viewbinding.ViewBindings;
 import com.connectsdk.sampler.R;
-import com.github.ybq.android.spinkit.SpinKitView;
 import java.lang.NullPointerException;
 import java.lang.Override;
 import java.lang.String;
@@ -21,24 +22,38 @@ public final class ActivityConnectBinding implements ViewBinding {
   private final RelativeLayout rootView;
 
   @NonNull
+  public final ImageView btnBack;
+
+  @NonNull
   public final ImageView btnInfo;
 
   @NonNull
   public final RelativeLayout main;
 
   @NonNull
-  public final SpinKitView spinKit;
+  public final RecyclerView rcvDevice;
 
   @NonNull
   public final RelativeLayout tab;
 
-  private ActivityConnectBinding(@NonNull RelativeLayout rootView, @NonNull ImageView btnInfo,
-      @NonNull RelativeLayout main, @NonNull SpinKitView spinKit, @NonNull RelativeLayout tab) {
+  @NonNull
+  public final LinearLayout viewDevice;
+
+  @NonNull
+  public final LinearLayout viewSearch;
+
+  private ActivityConnectBinding(@NonNull RelativeLayout rootView, @NonNull ImageView btnBack,
+      @NonNull ImageView btnInfo, @NonNull RelativeLayout main, @NonNull RecyclerView rcvDevice,
+      @NonNull RelativeLayout tab, @NonNull LinearLayout viewDevice,
+      @NonNull LinearLayout viewSearch) {
     this.rootView = rootView;
+    this.btnBack = btnBack;
     this.btnInfo = btnInfo;
     this.main = main;
-    this.spinKit = spinKit;
+    this.rcvDevice = rcvDevice;
     this.tab = tab;
+    this.viewDevice = viewDevice;
+    this.viewSearch = viewSearch;
   }
 
   @Override
@@ -68,6 +83,12 @@ public final class ActivityConnectBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
+      id = R.id.btnBack;
+      ImageView btnBack = ViewBindings.findChildViewById(rootView, id);
+      if (btnBack == null) {
+        break missingId;
+      }
+
       id = R.id.btnInfo;
       ImageView btnInfo = ViewBindings.findChildViewById(rootView, id);
       if (btnInfo == null) {
@@ -76,9 +97,9 @@ public final class ActivityConnectBinding implements ViewBinding {
 
       RelativeLayout main = (RelativeLayout) rootView;
 
-      id = R.id.spin_kit;
-      SpinKitView spinKit = ViewBindings.findChildViewById(rootView, id);
-      if (spinKit == null) {
+      id = R.id.rcvDevice;
+      RecyclerView rcvDevice = ViewBindings.findChildViewById(rootView, id);
+      if (rcvDevice == null) {
         break missingId;
       }
 
@@ -88,7 +109,20 @@ public final class ActivityConnectBinding implements ViewBinding {
         break missingId;
       }
 
-      return new ActivityConnectBinding((RelativeLayout) rootView, btnInfo, main, spinKit, tab);
+      id = R.id.viewDevice;
+      LinearLayout viewDevice = ViewBindings.findChildViewById(rootView, id);
+      if (viewDevice == null) {
+        break missingId;
+      }
+
+      id = R.id.viewSearch;
+      LinearLayout viewSearch = ViewBindings.findChildViewById(rootView, id);
+      if (viewSearch == null) {
+        break missingId;
+      }
+
+      return new ActivityConnectBinding((RelativeLayout) rootView, btnBack, btnInfo, main,
+          rcvDevice, tab, viewDevice, viewSearch);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

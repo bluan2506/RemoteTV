@@ -5,7 +5,9 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
+import android.widget.LinearLayout;
 import android.widget.RelativeLayout;
+import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.viewbinding.ViewBinding;
@@ -34,16 +36,29 @@ public final class ActivityMainBinding implements ViewBinding {
   public final RelativeLayout tab;
 
   @NonNull
+  public final LinearLayout tabSetting;
+
+  @NonNull
+  public final TextView txtTab;
+
+  @NonNull
+  public final TextView txtVersion;
+
+  @NonNull
   public final ViewPager2 viewPager;
 
   private ActivityMainBinding(@NonNull RelativeLayout rootView, @NonNull SmoothBottomBar botNav,
       @NonNull ImageView btnConnect, @NonNull RelativeLayout main, @NonNull RelativeLayout tab,
+      @NonNull LinearLayout tabSetting, @NonNull TextView txtTab, @NonNull TextView txtVersion,
       @NonNull ViewPager2 viewPager) {
     this.rootView = rootView;
     this.botNav = botNav;
     this.btnConnect = btnConnect;
     this.main = main;
     this.tab = tab;
+    this.tabSetting = tabSetting;
+    this.txtTab = txtTab;
+    this.txtVersion = txtVersion;
     this.viewPager = viewPager;
   }
 
@@ -94,6 +109,24 @@ public final class ActivityMainBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.tabSetting;
+      LinearLayout tabSetting = ViewBindings.findChildViewById(rootView, id);
+      if (tabSetting == null) {
+        break missingId;
+      }
+
+      id = R.id.txtTab;
+      TextView txtTab = ViewBindings.findChildViewById(rootView, id);
+      if (txtTab == null) {
+        break missingId;
+      }
+
+      id = R.id.txtVersion;
+      TextView txtVersion = ViewBindings.findChildViewById(rootView, id);
+      if (txtVersion == null) {
+        break missingId;
+      }
+
       id = R.id.viewPager;
       ViewPager2 viewPager = ViewBindings.findChildViewById(rootView, id);
       if (viewPager == null) {
@@ -101,7 +134,7 @@ public final class ActivityMainBinding implements ViewBinding {
       }
 
       return new ActivityMainBinding((RelativeLayout) rootView, botNav, btnConnect, main, tab,
-          viewPager);
+          tabSetting, txtTab, txtVersion, viewPager);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

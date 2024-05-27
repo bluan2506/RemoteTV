@@ -5,4 +5,13 @@
         <!-- Customize your theme here. -->
     </style>
 
+
+<!--    <declare-styleable name="ImageScaleView">-->
+<!--        <attr name="matrixType" format="enum">-->
+<!--            <enum name="top_center" value="0" />-->
+<!--            <enum name="bottom_center" value="1" />-->
+<!--        </attr>-->
+<!--    </declare-styleable>-->
+
+
 </resources>

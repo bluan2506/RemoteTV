@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.connectsdk.sampler"
-    android:versionCode="12"
-    android:versionName="1.6.0" >
+    android:versionCode="100"
+    android:versionName="1.0.0" >
 
     <uses-sdk
         android:minSdkVersion="27"
@@ -80,6 +80,11 @@
         <meta-data
             android:name="com.google.android.gms.ads.APPLICATION_ID"
             android:value="ca-app-pub-3940256099942544~3347511713" />
+
+        <uses-library
+            android:name="org.apache.http.legacy"
+            android:required="false" />
+
         <meta-data
             android:name="com.google.android.gms.ads.flag.OPTIMIZE_INITIALIZATION"
             android:value="true" />

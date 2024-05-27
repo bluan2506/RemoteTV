@@ -5,6 +5,8 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
+import android.widget.LinearLayout;
+import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.constraintlayout.widget.ConstraintLayout;
@@ -20,11 +22,151 @@ public final class FragmentRemoteBinding implements ViewBinding {
   private final ConstraintLayout rootView;
 
   @NonNull
+  public final ImageView btnA;
+
+  @NonNull
+  public final ImageView btnB;
+
+  @NonNull
+  public final ImageView btnBack;
+
+  @NonNull
+  public final TextView btnBack1;
+
+  @NonNull
+  public final ImageView btnC;
+
+  @NonNull
+  public final ImageView btnCh;
+
+  @NonNull
+  public final ImageView btnCircle;
+
+  @NonNull
+  public final ImageView btnD;
+
+  @NonNull
+  public final ImageView btnExit;
+
+  @NonNull
+  public final TextView btnExit1;
+
+  @NonNull
+  public final ImageView btnGuide;
+
+  @NonNull
   public final ImageView btnHome;
 
-  private FragmentRemoteBinding(@NonNull ConstraintLayout rootView, @NonNull ImageView btnHome) {
+  @NonNull
+  public final ImageView btnInfo;
+
+  @NonNull
+  public final ImageView btnMenu;
+
+  @NonNull
+  public final ImageView btnMute;
+
+  @NonNull
+  public final ImageView btnNext;
+
+  @NonNull
+  public final ImageView btnPause;
+
+  @NonNull
+  public final ImageView btnPlay;
+
+  @NonNull
+  public final ImageView btnPrevious;
+
+  @NonNull
+  public final ImageView btnRec;
+
+  @NonNull
+  public final ImageView btnSetting;
+
+  @NonNull
+  public final ImageView btnStop;
+
+  @NonNull
+  public final View btnTab1;
+
+  @NonNull
+  public final View btnTab2;
+
+  @NonNull
+  public final View btnTab3;
+
+  @NonNull
+  public final ImageView btnVol;
+
+  @NonNull
+  public final ImageView btnYoutube;
+
+  @NonNull
+  public final ImageView img1;
+
+  @NonNull
+  public final ConstraintLayout topTab1;
+
+  @NonNull
+  public final ConstraintLayout topTab2;
+
+  @NonNull
+  public final ConstraintLayout topTab3;
+
+  @NonNull
+  public final LinearLayout viewNumber;
+
+  @NonNull
+  public final ImageView viewPad;
+
+  private FragmentRemoteBinding(@NonNull ConstraintLayout rootView, @NonNull ImageView btnA,
+      @NonNull ImageView btnB, @NonNull ImageView btnBack, @NonNull TextView btnBack1,
+      @NonNull ImageView btnC, @NonNull ImageView btnCh, @NonNull ImageView btnCircle,
+      @NonNull ImageView btnD, @NonNull ImageView btnExit, @NonNull TextView btnExit1,
+      @NonNull ImageView btnGuide, @NonNull ImageView btnHome, @NonNull ImageView btnInfo,
+      @NonNull ImageView btnMenu, @NonNull ImageView btnMute, @NonNull ImageView btnNext,
+      @NonNull ImageView btnPause, @NonNull ImageView btnPlay, @NonNull ImageView btnPrevious,
+      @NonNull ImageView btnRec, @NonNull ImageView btnSetting, @NonNull ImageView btnStop,
+      @NonNull View btnTab1, @NonNull View btnTab2, @NonNull View btnTab3,
+      @NonNull ImageView btnVol, @NonNull ImageView btnYoutube, @NonNull ImageView img1,
+      @NonNull ConstraintLayout topTab1, @NonNull ConstraintLayout topTab2,
+      @NonNull ConstraintLayout topTab3, @NonNull LinearLayout viewNumber,
+      @NonNull ImageView viewPad) {
     this.rootView = rootView;
+    this.btnA = btnA;
+    this.btnB = btnB;
+    this.btnBack = btnBack;
+    this.btnBack1 = btnBack1;
+    this.btnC = btnC;
+    this.btnCh = btnCh;
+    this.btnCircle = btnCircle;
+    this.btnD = btnD;
+    this.btnExit = btnExit;
+    this.btnExit1 = btnExit1;
+    this.btnGuide = btnGuide;
     this.btnHome = btnHome;
+    this.btnInfo = btnInfo;
+    this.btnMenu = btnMenu;
+    this.btnMute = btnMute;
+    this.btnNext = btnNext;
+    this.btnPause = btnPause;
+    this.btnPlay = btnPlay;
+    this.btnPrevious = btnPrevious;
+    this.btnRec = btnRec;
+    this.btnSetting = btnSetting;
+    this.btnStop = btnStop;
+    this.btnTab1 = btnTab1;
+    this.btnTab2 = btnTab2;
+    this.btnTab3 = btnTab3;
+    this.btnVol = btnVol;
+    this.btnYoutube = btnYoutube;
+    this.img1 = img1;
+    this.topTab1 = topTab1;
+    this.topTab2 = topTab2;
+    this.topTab3 = topTab3;
+    this.viewNumber = viewNumber;
+    this.viewPad = viewPad;
   }
 
   @Override
@@ -54,13 +196,209 @@ public final class FragmentRemoteBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
+      id = R.id.btnA;
+      ImageView btnA = ViewBindings.findChildViewById(rootView, id);
+      if (btnA == null) {
+        break missingId;
+      }
+
+      id = R.id.btnB;
+      ImageView btnB = ViewBindings.findChildViewById(rootView, id);
+      if (btnB == null) {
+        break missingId;
+      }
+
+      id = R.id.btnBack;
+      ImageView btnBack = ViewBindings.findChildViewById(rootView, id);
+      if (btnBack == null) {
+        break missingId;
+      }
+
+      id = R.id.btnBack1;
+      TextView btnBack1 = ViewBindings.findChildViewById(rootView, id);
+      if (btnBack1 == null) {
+        break missingId;
+      }
+
+      id = R.id.btnC;
+      ImageView btnC = ViewBindings.findChildViewById(rootView, id);
+      if (btnC == null) {
+        break missingId;
+      }
+
+      id = R.id.btnCh;
+      ImageView btnCh = ViewBindings.findChildViewById(rootView, id);
+      if (btnCh == null) {
+        break missingId;
+      }
+
+      id = R.id.btnCircle;
+      ImageView btnCircle = ViewBindings.findChildViewById(rootView, id);
+      if (btnCircle == null) {
+        break missingId;
+      }
+
+      id = R.id.btnD;
+      ImageView btnD = ViewBindings.findChildViewById(rootView, id);
+      if (btnD == null) {
+        break missingId;
+      }
+
+      id = R.id.btnExit;
+      ImageView btnExit = ViewBindings.findChildViewById(rootView, id);
+      if (btnExit == null) {
+        break missingId;
+      }
+
+      id = R.id.btnExit1;
+      TextView btnExit1 = ViewBindings.findChildViewById(rootView, id);
+      if (btnExit1 == null) {
+        break missingId;
+      }
+
+      id = R.id.btnGuide;
+      ImageView btnGuide = ViewBindings.findChildViewById(rootView, id);
+      if (btnGuide == null) {
+        break missingId;
+      }
+
       id = R.id.btnHome;
       ImageView btnHome = ViewBindings.findChildViewById(rootView, id);
       if (btnHome == null) {
         break missingId;
       }
 
-      return new FragmentRemoteBinding((ConstraintLayout) rootView, btnHome);
+      id = R.id.btnInfo;
+      ImageView btnInfo = ViewBindings.findChildViewById(rootView, id);
+      if (btnInfo == null) {
+        break missingId;
+      }
+
+      id = R.id.btnMenu;
+      ImageView btnMenu = ViewBindings.findChildViewById(rootView, id);
+      if (btnMenu == null) {
+        break missingId;
+      }
+
+      id = R.id.btnMute;
+      ImageView btnMute = ViewBindings.findChildViewById(rootView, id);
+      if (btnMute == null) {
+        break missingId;
+      }
+
+      id = R.id.btnNext;
+      ImageView btnNext = ViewBindings.findChildViewById(rootView, id);
+      if (btnNext == null) {
+        break missingId;
+      }
+
+      id = R.id.btnPause;
+      ImageView btnPause = ViewBindings.findChildViewById(rootView, id);
+      if (btnPause == null) {
+        break missingId;
+      }
+
+      id = R.id.btnPlay;
+      ImageView btnPlay = ViewBindings.findChildViewById(rootView, id);
+      if (btnPlay == null) {
+        break missingId;
+      }
+
+      id = R.id.btnPrevious;
+      ImageView btnPrevious = ViewBindings.findChildViewById(rootView, id);
+      if (btnPrevious == null) {
+        break missingId;
+      }
+
+      id = R.id.btnRec;
+      ImageView btnRec = ViewBindings.findChildViewById(rootView, id);
+      if (btnRec == null) {
+        break missingId;
+      }
+
+      id = R.id.btnSetting;
+      ImageView btnSetting = ViewBindings.findChildViewById(rootView, id);
+      if (btnSetting == null) {
+        break missingId;
+      }
+
+      id = R.id.btnStop;
+      ImageView btnStop = ViewBindings.findChildViewById(rootView, id);
+      if (btnStop == null) {
+        break missingId;
+      }
+
+      id = R.id.btnTab1;
+      View btnTab1 = ViewBindings.findChildViewById(rootView, id);
+      if (btnTab1 == null) {
+        break missingId;
+      }
+
+      id = R.id.btnTab2;
+      View btnTab2 = ViewBindings.findChildViewById(rootView, id);
+      if (btnTab2 == null) {
+        break missingId;
+      }
+
+      id = R.id.btnTab3;
+      View btnTab3 = ViewBindings.findChildViewById(rootView, id);
+      if (btnTab3 == null) {
+        break missingId;
+      }
+
+      id = R.id.btnVol;
+      ImageView btnVol = ViewBindings.findChildViewById(rootView, id);
+      if (btnVol == null) {
+        break missingId;
+      }
+
+      id = R.id.btnYoutube;
+      ImageView btnYoutube = ViewBindings.findChildViewById(rootView, id);
+      if (btnYoutube == null) {
+        break missingId;
+      }
+
+      id = R.id.img1;
+      ImageView img1 = ViewBindings.findChildViewById(rootView, id);
+      if (img1 == null) {
+        break missingId;
+      }
+
+      id = R.id.topTab1;
+      ConstraintLayout topTab1 = ViewBindings.findChildViewById(rootView, id);
+      if (topTab1 == null) {
+        break missingId;
+      }
+
+      id = R.id.topTab2;
+      ConstraintLayout topTab2 = ViewBindings.findChildViewById(rootView, id);
+      if (topTab2 == null) {
+        break missingId;
+      }
+
+      id = R.id.topTab3;
+      ConstraintLayout topTab3 = ViewBindings.findChildViewById(rootView, id);
+      if (topTab3 == null) {
+        break missingId;
+      }
+
+      id = R.id.viewNumber;
+      LinearLayout viewNumber = ViewBindings.findChildViewById(rootView, id);
+      if (viewNumber == null) {
+        break missingId;
+      }
+
+      id = R.id.viewPad;
+      ImageView viewPad = ViewBindings.findChildViewById(rootView, id);
+      if (viewPad == null) {
+        break missingId;
+      }
+
+      return new FragmentRemoteBinding((ConstraintLayout) rootView, btnA, btnB, btnBack, btnBack1,
+          btnC, btnCh, btnCircle, btnD, btnExit, btnExit1, btnGuide, btnHome, btnInfo, btnMenu,
+          btnMute, btnNext, btnPause, btnPlay, btnPrevious, btnRec, btnSetting, btnStop, btnTab1,
+          btnTab2, btnTab3, btnVol, btnYoutube, img1, topTab1, topTab2, topTab3, viewNumber,
+          viewPad);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

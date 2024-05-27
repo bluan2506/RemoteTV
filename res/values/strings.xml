@@ -1,7 +1,7 @@
 <resources>
     <string name="app_name">RemoteTV</string>
     <string name="remote">Remote</string>
-    <string name="app">App</string>
+    <string name="app">Apps</string>
     <string name="cast">Cast</string>
     <string name="setting">Setting</string>
     <string name="tv_remote">TV Remote</string>
@@ -30,4 +30,27 @@
     <string name="navigation_drawer_close">Close navigation drawer</string>
     <string name="action_connect">Connect</string>
     <string name="action_disconnect">Disconnect</string>
+    <string name="ok">OK</string>
+    <string name="info">INFO</string>
+    <string name="settings">SETTINGS</string>
+    <string name="back">BACK</string>
+    <string name="exit">EXIT</string>
+    <string name="guide">GUIDE</string>
+    <string name="mute">MUTE</string>
+    <string name="menu">MENU</string>
+    <string name="version">Version</string>
+    <string name="upgrade_to">Upgrade to</string>
+    <string name="premium">PREMIUM</string>
+    <string name="haptic_feedback">Haptic Feedback</string>
+    <string name="frequently_asked_questions">Frequently Asked Questions</string>
+    <string name="restore_purchase">Restore Purchase</string>
+    <string name="more_apps">More Apps</string>
+    <string name="privacy_policy">Privacy Policy</string>
+    <string name="terms_of_use">Terms of Use</string>
+    <string name="contact_us">Contact Us</string>
+    <string name="tell_friends">Tell Friends</string>
+    <string name="connect_to_your">Connect to your TV to see the list of \n applications here</string>
+    <string name="tv_not_connected">TV not Connected</string>
+    <string name="connect">Connect</string>
+    <string name="make_sure">Make sure your phone and TV are connected to \n the same wifi network.</string>
 </resources>

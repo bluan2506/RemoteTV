@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\Luaan\AndroidStudioProjects\connectsdk\AndroidManifest.xml:2:1-48:12
-INJECTED from C:\Users\Luaan\AndroidStudioProjects\connectsdk\AndroidManifest.xml:2:1-48:12
-INJECTED from C:\Users\Luaan\AndroidStudioProjects\connectsdk\AndroidManifest.xml:2:1-48:12
-INJECTED from C:\Users\Luaan\AndroidStudioProjects\connectsdk\AndroidManifest.xml:2:1-48:12
+ADDED from C:\Users\Luaan\AndroidStudioProjects\connectsdk\AndroidManifest.xml:2:1-50:12
+INJECTED from C:\Users\Luaan\AndroidStudioProjects\connectsdk\AndroidManifest.xml:2:1-50:12
+INJECTED from C:\Users\Luaan\AndroidStudioProjects\connectsdk\AndroidManifest.xml:2:1-50:12
+INJECTED from C:\Users\Luaan\AndroidStudioProjects\connectsdk\AndroidManifest.xml:2:1-50:12
 MERGED from [com.github.DungnmPercas:Template:1.1.2] C:\Users\Luaan\.gradle\caches\transforms-3\54fff9ec2ba983d9c51ff23ea1253c20\transformed\jetified-Template-1.1.2\AndroidManifest.xml:2:1-24:12
 MERGED from [androidx.databinding:viewbinding:8.1.2] C:\Users\Luaan\.gradle\caches\transforms-3\32de8d23e7432dd158c6ce8aaf737fc1\transformed\jetified-viewbinding-8.1.2\AndroidManifest.xml:2:1-7:12
 MERGED from [com.github.ibrahimsn98:SmoothBottomBar:1.7.9] C:\Users\Luaan\.gradle\caches\transforms-3\4fa3118f54cfcf6a568951c2121c0eeb\transformed\jetified-SmoothBottomBar-1.7.9\AndroidManifest.xml:2:1-11:12
@@ -93,9 +93,9 @@ MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\User
 MERGED from [androidx.print:print:1.0.0] C:\Users\Luaan\.gradle\caches\transforms-3\9785dfa8c576e087a569cf2cce9d2d24\transformed\print-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.annotation:annotation-experimental:1.4.0] C:\Users\Luaan\.gradle\caches\transforms-3\dee7b46da04ac8b3f4484863bad2da4e\transformed\jetified-annotation-experimental-1.4.0\AndroidManifest.xml:2:1-7:12
 MERGED from [com.intuit.sdp:sdp-android:1.1.0] C:\Users\Luaan\.gradle\caches\transforms-3\8a95761a9d65b1adb70e4d002a0d6356\transformed\jetified-sdp-android-1.1.0\AndroidManifest.xml:2:1-11:12
-INJECTED from C:\Users\Luaan\AndroidStudioProjects\connectsdk\AndroidManifest.xml:2:1-48:12
-INJECTED from C:\Users\Luaan\AndroidStudioProjects\connectsdk\AndroidManifest.xml:2:1-48:12
-INJECTED from C:\Users\Luaan\AndroidStudioProjects\connectsdk\AndroidManifest.xml:2:1-48:12
+INJECTED from C:\Users\Luaan\AndroidStudioProjects\connectsdk\AndroidManifest.xml:2:1-50:12
+INJECTED from C:\Users\Luaan\AndroidStudioProjects\connectsdk\AndroidManifest.xml:2:1-50:12
+INJECTED from C:\Users\Luaan\AndroidStudioProjects\connectsdk\AndroidManifest.xml:2:1-50:12
 	package
 		ADDED from C:\Users\Luaan\AndroidStudioProjects\connectsdk\AndroidManifest.xml:3:5-37
 		INJECTED from C:\Users\Luaan\AndroidStudioProjects\connectsdk\AndroidManifest.xml
@@ -107,7 +107,7 @@ INJECTED from C:\Users\Luaan\AndroidStudioProjects\connectsdk\AndroidManifest.xm
 	xmlns:android
 		ADDED from C:\Users\Luaan\AndroidStudioProjects\connectsdk\AndroidManifest.xml:2:11-69
 	android:versionCode
-		ADDED from C:\Users\Luaan\AndroidStudioProjects\connectsdk\AndroidManifest.xml:4:5-29
+		ADDED from C:\Users\Luaan\AndroidStudioProjects\connectsdk\AndroidManifest.xml:4:5-30
 		INJECTED from C:\Users\Luaan\AndroidStudioProjects\connectsdk\AndroidManifest.xml
 		INJECTED from C:\Users\Luaan\AndroidStudioProjects\connectsdk\AndroidManifest.xml
 uses-permission#android.permission.INTERNET
@@ -159,7 +159,7 @@ ADDED from C:\Users\Luaan\AndroidStudioProjects\connectsdk\AndroidManifest.xml:1
 	android:name
 		ADDED from C:\Users\Luaan\AndroidStudioProjects\connectsdk\AndroidManifest.xml:12:22-65
 application
-ADDED from C:\Users\Luaan\AndroidStudioProjects\connectsdk\AndroidManifest.xml:14:5-46:19
+ADDED from C:\Users\Luaan\AndroidStudioProjects\connectsdk\AndroidManifest.xml:14:5-48:19
 MERGED from [com.github.DungnmPercas:Template:1.1.2] C:\Users\Luaan\.gradle\caches\transforms-3\54fff9ec2ba983d9c51ff23ea1253c20\transformed\jetified-Template-1.1.2\AndroidManifest.xml:12:5-22:19
 MERGED from [com.github.DungnmPercas:Template:1.1.2] C:\Users\Luaan\.gradle\caches\transforms-3\54fff9ec2ba983d9c51ff23ea1253c20\transformed\jetified-Template-1.1.2\AndroidManifest.xml:12:5-22:19
 MERGED from [com.google.android.material:material:1.11.0] C:\Users\Luaan\.gradle\caches\transforms-3\91251ba2efadc24693d2093888aee973\transformed\material-1.11.0\AndroidManifest.xml:22:5-20
@@ -264,6 +264,12 @@ ADDED from C:\Users\Luaan\AndroidStudioProjects\connectsdk\AndroidManifest.xml:4
 		ADDED from C:\Users\Luaan\AndroidStudioProjects\connectsdk\AndroidManifest.xml:45:13-67
 	android:name
 		ADDED from C:\Users\Luaan\AndroidStudioProjects\connectsdk\AndroidManifest.xml:44:13-69
+uses-library#org.apache.http.legacy
+ADDED from C:\Users\Luaan\AndroidStudioProjects\connectsdk\AndroidManifest.xml:47:9-88
+	android:required
+		ADDED from C:\Users\Luaan\AndroidStudioProjects\connectsdk\AndroidManifest.xml:47:61-85
+	android:name
+		ADDED from C:\Users\Luaan\AndroidStudioProjects\connectsdk\AndroidManifest.xml:47:23-60
 uses-sdk
 INJECTED from C:\Users\Luaan\AndroidStudioProjects\connectsdk\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from C:\Users\Luaan\AndroidStudioProjects\connectsdk\AndroidManifest.xml

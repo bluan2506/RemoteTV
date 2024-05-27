@@ -21,6 +21,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"/>
         <TextView
+            android:id="@+id/txtTab"
             android:textSize="24sp"
             android:textColor="@color/white"
             android:text="@string/tv_remote"
@@ -37,6 +38,35 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"/>
     </RelativeLayout>
+
+    <LinearLayout
+        android:visibility="gone"
+        android:paddingStart="20dp"
+        android:orientation="vertical"
+        android:id="@+id/tabSetting"
+        android:background="@drawable/bg_tab"
+        android:layout_alignParentTop="true"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        tools:ignore="RtlSymmetry">
+        <TextView
+            android:includeFontPadding="false"
+            android:textSize="24sp"
+            android:textColor="@color/white"
+            android:text="@string/tv_remote"
+            android:fontFamily="@font/chakra_petch_medium"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:id="@+id/txtVersion"
+            android:includeFontPadding="false"
+            android:textSize="16sp"
+            android:textColor="#80FFFFFF"
+            android:text="@string/version"
+            android:fontFamily="@font/chakra_petch_light"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
 
     <me.ibrahimsn.lib.SmoothBottomBar
         android:id="@+id/botNav"

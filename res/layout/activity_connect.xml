@@ -14,6 +14,7 @@
         android:layout_width="match_parent"
         android:layout_height="?attr/actionBarSize">
         <ImageView
+            android:id="@+id/btnBack"
             android:padding="@dimen/_6sdp"
             android:layout_marginStart="@dimen/_8sdp"
             android:layout_centerVertical="true"
@@ -39,6 +40,7 @@
     </RelativeLayout>
 
     <LinearLayout
+        android:id="@+id/viewSearch"
         android:backgroundTint="#1ACBCBCB"
         android:background="@drawable/corner_10dp"
         android:layout_marginHorizontal="@dimen/_20sdp"
@@ -49,7 +51,6 @@
         android:layout_height="wrap_content" >
         <com.github.ybq.android.spinkit.SpinKitView
             android:layout_marginVertical="@dimen/_10sdp"
-            android:id="@+id/spin_kit"
             style="@style/SpinKitView.FadingCircle"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -77,14 +78,41 @@
             android:layout_height="wrap_content"/>
     </LinearLayout>
 
-    <androidx.recyclerview.widget.RecyclerView
+    <LinearLayout
         android:visibility="gone"
-        android:layout_marginTop="18dp"
-        tools:listitem="@layout/item_device"
-        app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
-        android:orientation="vertical"
+        android:id="@+id/viewDevice"
         android:layout_below="@id/tab"
-        android:layout_marginHorizontal="@dimen/_16sdp"
+        android:orientation="vertical"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"/>
+        android:layout_height="wrap_content">
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rcvDevice"
+            android:layout_marginTop="18dp"
+            tools:listitem="@layout/item_device"
+            app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+            android:orientation="vertical"
+            android:layout_marginHorizontal="@dimen/_16sdp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:textSize="15sp"
+            android:includeFontPadding="false"
+            android:fontFamily="@font/chakra_petch_regular"
+            android:layout_marginTop="20dp"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:text="@string/make_sure"
+            android:layout_below="@id/rcvDevice"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <com.github.ybq.android.spinkit.SpinKitView
+            android:layout_marginVertical="@dimen/_10sdp"
+            style="@style/SpinKitView.FadingCircle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            app:SpinKit_Color="#AF7DFF" />
+    </LinearLayout>
+
+
 </RelativeLayout>

@@ -1,47 +1,580 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     tools:context=".fragment.RemoteFragment">
 
-    <TextView
-        android:gravity="center"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="Remote" />
-    
     <ImageView
         android:id="@+id/btnHome"
+        android:layout_width="55dp"
+        android:layout_height="55dp"
         android:layout_marginStart="20dp"
         android:layout_marginTop="20dp"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
         android:src="@drawable/btn_home"
-        android:layout_width="55dp"
-        android:layout_height="55dp"/>
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <ImageView
-        android:layout_marginEnd="20dp"
-        android:layout_marginTop="20dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        android:src="@drawable/btn_off"
         android:layout_width="55dp"
-        android:layout_height="55dp"/>
+        android:layout_height="55dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:src="@drawable/btn_off"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
         android:layout_marginHorizontal="26dp"
         android:layout_marginTop="20dp"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintTop_toTopOf="@id/btnHome"
-        android:layout_width="match_parent"
-        android:layout_height="0dp">
-        <com.connectsdk.sampler.customview.TopCropImageView
-            app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintTop_toTopOf="@id/btnHome">
+
+        <ImageView
+            android:id="@+id/img1"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:adjustViewBounds="true"
             android:src="@drawable/bg_tab1"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"/>
+            app:layout_constraintDimensionRatio="533:1087"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:background="#C2C5D0"
+            app:layout_constraintTop_toBottomOf="@id/img1" />
+
+        <View
+            android:id="@+id/btnTab1"
+            android:layout_width="60dp"
+            android:layout_height="40dp"
+            app:layout_constraintEnd_toStartOf="@+id/btnTab2"
+            app:layout_constraintHorizontal_bias="1"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <View
+            android:id="@+id/btnTab2"
+            android:layout_width="60dp"
+            android:layout_height="40dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <View
+            android:id="@+id/btnTab3"
+            android:layout_width="60dp"
+            android:layout_height="40dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0"
+            app:layout_constraintStart_toEndOf="@+id/btnTab2"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="40dp">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@+id/topTab1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:layout_constraintTop_toTopOf="parent">
+
+                <ImageView
+                    android:id="@+id/btnCircle"
+                    android:layout_width="260dp"
+                    android:layout_height="0dp"
+                    android:layout_marginTop="30dp"
+                    android:src="@drawable/btn_circle"
+                    app:layout_constraintDimensionRatio="1:1"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/chakra_petch_medium"
+                    android:includeFontPadding="false"
+                    android:text="@string/ok"
+                    android:textColor="@color/white"
+                    android:textSize="32sp"
+                    app:layout_constraintBottom_toBottomOf="@+id/btnCircle"
+                    app:layout_constraintEnd_toEndOf="@+id/btnCircle"
+                    app:layout_constraintStart_toStartOf="@+id/btnCircle"
+                    app:layout_constraintTop_toTopOf="@+id/btnCircle" />
+
+                <ImageView
+                    android:id="@+id/btnInfo"
+                    android:layout_width="52dp"
+                    android:layout_height="wrap_content"
+                    android:adjustViewBounds="true"
+                    android:src="@drawable/btn_info"
+                    app:layout_constraintBottom_toTopOf="@id/btnCircle"
+                    app:layout_constraintEnd_toStartOf="@id/btnCircle"
+                    app:layout_constraintStart_toStartOf="@id/btnCircle"
+                    app:layout_constraintTop_toTopOf="@id/btnCircle" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="6dp"
+                    android:fontFamily="@font/chakra_petch_medium"
+                    android:includeFontPadding="false"
+                    android:text="@string/info"
+                    android:textColor="@color/white"
+                    android:textSize="8sp"
+                    app:layout_constraintBottom_toBottomOf="@id/btnInfo"
+                    app:layout_constraintEnd_toEndOf="@id/btnInfo"
+                    app:layout_constraintStart_toStartOf="@id/btnInfo" />
+
+                <ImageView
+                    android:id="@+id/btnSetting"
+                    android:layout_width="52dp"
+                    android:layout_height="wrap_content"
+                    android:adjustViewBounds="true"
+                    android:src="@drawable/btn_setting"
+                    app:layout_constraintBottom_toTopOf="@id/btnCircle"
+                    app:layout_constraintEnd_toEndOf="@id/btnCircle"
+                    app:layout_constraintStart_toEndOf="@id/btnCircle"
+                    app:layout_constraintTop_toTopOf="@id/btnCircle" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="6dp"
+                    android:fontFamily="@font/chakra_petch_medium"
+                    android:includeFontPadding="false"
+                    android:text="@string/settings"
+                    android:textColor="@color/white"
+                    android:textSize="8sp"
+                    app:layout_constraintBottom_toBottomOf="@id/btnSetting"
+                    app:layout_constraintEnd_toEndOf="@id/btnSetting"
+                    app:layout_constraintStart_toStartOf="@id/btnSetting" />
+
+
+                <ImageView
+                    android:id="@+id/btnBack"
+                    android:layout_width="52dp"
+                    android:layout_height="wrap_content"
+                    android:adjustViewBounds="true"
+                    android:src="@drawable/btn_back"
+                    app:layout_constraintBottom_toBottomOf="@id/btnCircle"
+                    app:layout_constraintEnd_toStartOf="@id/btnCircle"
+                    app:layout_constraintStart_toStartOf="@id/btnCircle"
+                    app:layout_constraintTop_toBottomOf="@id/btnCircle" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="6dp"
+                    android:fontFamily="@font/chakra_petch_medium"
+                    android:includeFontPadding="false"
+                    android:text="@string/back"
+                    android:textColor="@color/white"
+                    android:textSize="8sp"
+                    app:layout_constraintBottom_toBottomOf="@id/btnBack"
+                    app:layout_constraintEnd_toEndOf="@id/btnBack"
+                    app:layout_constraintStart_toStartOf="@id/btnBack" />
+
+
+                <ImageView
+                    android:id="@+id/btnExit"
+                    android:layout_width="52dp"
+                    android:layout_height="wrap_content"
+                    android:adjustViewBounds="true"
+                    android:src="@drawable/btn_exit"
+                    app:layout_constraintBottom_toBottomOf="@id/btnCircle"
+                    app:layout_constraintEnd_toEndOf="@id/btnCircle"
+                    app:layout_constraintStart_toEndOf="@id/btnCircle"
+                    app:layout_constraintTop_toBottomOf="@id/btnCircle" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="6dp"
+                    android:fontFamily="@font/chakra_petch_medium"
+                    android:includeFontPadding="false"
+                    android:text="@string/exit"
+                    android:textColor="@color/white"
+                    android:textSize="8sp"
+                    app:layout_constraintBottom_toBottomOf="@id/btnExit"
+                    app:layout_constraintEnd_toEndOf="@id/btnExit"
+                    app:layout_constraintStart_toStartOf="@id/btnExit" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:visibility="gone"
+                android:id="@+id/topTab2"
+                app:layout_constraintTop_toTopOf="parent"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:id="@+id/viewPad"
+                    app:layout_constraintTop_toTopOf="parent"
+                    android:layout_margin="24dp"
+                    android:adjustViewBounds="true"
+                    android:src="@drawable/img_pad"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+                <TextView
+                    android:layout_marginBottom="9dp"
+                    android:padding="10dp"
+                    app:layout_constraintHorizontal_bias="0.25"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    android:id="@+id/btnBack1"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintBottom_toBottomOf="@id/viewPad"
+                    android:textColor="#80FFFFFF"
+                    android:text="BACK"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+                <TextView
+                    app:layout_constraintHorizontal_bias="0.75"
+                    android:layout_marginBottom="9dp"
+                    android:padding="10dp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    android:id="@+id/btnExit1"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintBottom_toBottomOf="@id/viewPad"
+                    android:textColor="#80FFFFFF"
+                    android:text="EXIT"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:visibility="gone"
+                android:id="@+id/topTab3"
+                app:layout_constraintBottom_toTopOf="@id/btnMenu"
+                app:layout_constraintTop_toTopOf="parent"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <LinearLayout
+                    android:id="@+id/viewNumber"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    android:orientation="vertical"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+                        <ImageView
+                            android:adjustViewBounds="true"
+                            android:src="@drawable/btn_1"
+                            android:layout_width="68dp"
+                            android:layout_height="wrap_content"/>
+                        <ImageView
+                            android:adjustViewBounds="true"
+                            android:src="@drawable/btn_2"
+                            android:layout_width="68dp"
+                            android:layout_height="wrap_content"/>
+                        <ImageView
+                            android:adjustViewBounds="true"
+                            android:src="@drawable/btn_3"
+                            android:layout_width="68dp"
+                            android:layout_height="wrap_content"/>
+                    </LinearLayout>
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+                        <ImageView
+                            android:adjustViewBounds="true"
+                            android:src="@drawable/btn_4"
+                            android:layout_width="68dp"
+                            android:layout_height="wrap_content"/>
+                        <ImageView
+                            android:adjustViewBounds="true"
+                            android:src="@drawable/btn_5"
+                            android:layout_width="68dp"
+                            android:layout_height="wrap_content"/>
+                        <ImageView
+                            android:adjustViewBounds="true"
+                            android:src="@drawable/btn_6"
+                            android:layout_width="68dp"
+                            android:layout_height="wrap_content"/>
+                    </LinearLayout>
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+                        <ImageView
+                            android:adjustViewBounds="true"
+                            android:src="@drawable/btn_7"
+                            android:layout_width="68dp"
+                            android:layout_height="wrap_content"/>
+                        <ImageView
+                            android:adjustViewBounds="true"
+                            android:src="@drawable/btn_8"
+                            android:layout_width="68dp"
+                            android:layout_height="wrap_content"/>
+                        <ImageView
+                            android:adjustViewBounds="true"
+                            android:src="@drawable/btn_9"
+                            android:layout_width="68dp"
+                            android:layout_height="wrap_content"/>
+                    </LinearLayout>
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+                        <ImageView
+                            android:visibility="invisible"
+                            android:adjustViewBounds="true"
+                            android:src="@drawable/btn_1"
+                            android:layout_width="68dp"
+                            android:layout_height="wrap_content"/>
+                        <ImageView
+                            android:adjustViewBounds="true"
+                            android:src="@drawable/btn_0"
+                            android:layout_width="68dp"
+                            android:layout_height="wrap_content"/>
+                        <ImageView
+                            android:adjustViewBounds="true"
+                            android:src="@drawable/btn_pre_ch"
+                            android:layout_width="68dp"
+                            android:layout_height="wrap_content"/>
+                    </LinearLayout>
+                </LinearLayout>
+                <ImageView
+                    app:layout_constraintBottom_toTopOf="@+id/btnB"
+                    app:layout_constraintEnd_toStartOf="@id/viewNumber"
+                    android:id="@+id/btnA"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    android:src="@drawable/btn_a"
+                    android:adjustViewBounds="true"
+                    android:layout_width="35dp"
+                    android:layout_height="wrap_content"/>
+
+                <ImageView
+                    android:id="@+id/btnB"
+                    android:layout_width="35dp"
+                    android:layout_height="wrap_content"
+                    android:adjustViewBounds="true"
+                    android:src="@drawable/btn_b"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toStartOf="@id/viewNumber"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <ImageView
+                    app:layout_constraintBottom_toTopOf="@+id/btnD"
+                    app:layout_constraintStart_toEndOf="@id/viewNumber"
+                    android:id="@+id/btnC"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    android:src="@drawable/btn_c"
+                    android:adjustViewBounds="true"
+                    android:layout_width="35dp"
+                    android:layout_height="wrap_content"/>
+
+                <ImageView
+                    android:id="@+id/btnD"
+                    android:layout_width="35dp"
+                    android:layout_height="wrap_content"
+                    android:adjustViewBounds="true"
+                    android:src="@drawable/btn_d"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintStart_toEndOf="@id/viewNumber"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+            <ImageView
+                android:id="@+id/btnMenu"
+                android:layout_width="68dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="6dp"
+                android:adjustViewBounds="true"
+                android:src="@drawable/btn_menu"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/topTab1" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="6dp"
+                android:fontFamily="@font/chakra_petch_medium"
+                android:text="@string/menu"
+                android:textColor="@color/white"
+                android:textSize="11sp"
+                app:layout_constraintBottom_toBottomOf="@id/btnMenu"
+                app:layout_constraintEnd_toEndOf="@id/btnMenu"
+                app:layout_constraintStart_toStartOf="@id/btnMenu" />
+
+            <ImageView
+                android:id="@+id/btnMute"
+                android:layout_width="68dp"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:src="@drawable/btn_mute"
+                app:layout_constraintBottom_toTopOf="@id/btnGuide"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/btnMenu" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="6dp"
+                android:fontFamily="@font/chakra_petch_medium"
+                android:text="@string/mute"
+                android:textColor="@color/white"
+                android:textSize="11sp"
+                app:layout_constraintBottom_toBottomOf="@id/btnMute"
+                app:layout_constraintEnd_toEndOf="@id/btnMute"
+                app:layout_constraintStart_toStartOf="@id/btnMute" />
+
+            <ImageView
+                android:id="@+id/btnGuide"
+                android:layout_width="68dp"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:src="@drawable/btn_guide"
+                app:layout_constraintBottom_toBottomOf="@id/btnVol"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="6dp"
+                android:fontFamily="@font/chakra_petch_medium"
+                android:text="@string/guide"
+                android:textColor="@color/white"
+                android:textSize="11sp"
+                app:layout_constraintBottom_toBottomOf="@id/btnGuide"
+                app:layout_constraintEnd_toEndOf="@id/btnGuide"
+                app:layout_constraintStart_toStartOf="@id/btnGuide" />
+
+            <ImageView
+                android:id="@+id/btnVol"
+                android:layout_width="68dp"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:src="@drawable/btn_vol"
+                app:layout_constraintEnd_toStartOf="@id/btnMenu"
+                app:layout_constraintStart_toEndOf="@id/btnPlay"
+                app:layout_constraintTop_toTopOf="@id/btnMenu" />
+
+            <ImageView
+                android:id="@+id/btnCh"
+                android:layout_width="68dp"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:src="@drawable/btn_ch"
+                app:layout_constraintEnd_toStartOf="@id/btnNext"
+                app:layout_constraintStart_toEndOf="@id/btnMenu"
+                app:layout_constraintTop_toTopOf="@id/btnMenu" />
+
+            <ImageView
+                android:id="@+id/btnPlay"
+                android:layout_width="35dp"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:src="@drawable/btn_play"
+                app:layout_constraintBottom_toTopOf="@id/btnPause"
+                app:layout_constraintEnd_toStartOf="@id/btnVol"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="@id/btnVol" />
+
+            <ImageView
+                android:id="@+id/btnPause"
+                android:layout_width="35dp"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:src="@drawable/btn_pause"
+                app:layout_constraintBottom_toTopOf="@id/btnStop"
+                app:layout_constraintEnd_toStartOf="@id/btnVol"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/btnPlay" />
+
+            <ImageView
+                android:id="@+id/btnStop"
+                android:layout_width="35dp"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:src="@drawable/btn_stop"
+                app:layout_constraintBottom_toBottomOf="@id/btnVol"
+                app:layout_constraintEnd_toStartOf="@id/btnVol"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/btnPause" />
+
+            <ImageView
+                android:id="@+id/btnNext"
+                android:layout_width="35dp"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:src="@drawable/btn_next"
+                app:layout_constraintBottom_toTopOf="@id/btnPrevious"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@id/btnCh"
+                app:layout_constraintTop_toTopOf="@id/btnCh" />
+
+            <ImageView
+                android:id="@+id/btnPrevious"
+                android:layout_width="35dp"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:src="@drawable/btn_previous"
+                app:layout_constraintBottom_toTopOf="@id/btnRec"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@id/btnCh"
+                app:layout_constraintTop_toBottomOf="@id/btnNext" />
+
+            <ImageView
+                android:id="@+id/btnRec"
+                android:layout_width="35dp"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:src="@drawable/btn_rec"
+                app:layout_constraintBottom_toBottomOf="@id/btnCh"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@id/btnCh"
+                app:layout_constraintTop_toBottomOf="@id/btnPrevious" />
+
+            <ImageView
+                android:id="@+id/btnYoutube"
+                android:layout_width="94dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="14dp"
+                android:adjustViewBounds="true"
+                android:src="@drawable/btn_youtube"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/btnVol" />
+
+            <ImageView
+                android:layout_width="94dp"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:src="@drawable/btn_netflix"
+                app:layout_constraintEnd_toStartOf="@id/btnYoutube"
+                app:layout_constraintHorizontal_bias="0.7"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="@+id/btnYoutube" />
+
+            <ImageView
+                android:layout_width="94dp"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:src="@drawable/btn_appletv"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.3"
+                app:layout_constraintStart_toEndOf="@id/btnYoutube"
+                app:layout_constraintTop_toTopOf="@+id/btnYoutube" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
     </androidx.constraintlayout.widget.ConstraintLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>

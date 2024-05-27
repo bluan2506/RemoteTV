@@ -4,7 +4,7 @@ package com.connectsdk.sampler.databinding;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.FrameLayout;
+import android.widget.RelativeLayout;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.viewbinding.ViewBinding;
@@ -14,15 +14,15 @@ import java.lang.Override;
 
 public final class FragmentAppBinding implements ViewBinding {
   @NonNull
-  private final FrameLayout rootView;
+  private final RelativeLayout rootView;
 
-  private FragmentAppBinding(@NonNull FrameLayout rootView) {
+  private FragmentAppBinding(@NonNull RelativeLayout rootView) {
     this.rootView = rootView;
   }
 
   @Override
   @NonNull
-  public FrameLayout getRoot() {
+  public RelativeLayout getRoot() {
     return rootView;
   }
 
@@ -47,6 +47,6 @@ public final class FragmentAppBinding implements ViewBinding {
       throw new NullPointerException("rootView");
     }
 
-    return new FragmentAppBinding((FrameLayout) rootView);
+    return new FragmentAppBinding((RelativeLayout) rootView);
   }
 }

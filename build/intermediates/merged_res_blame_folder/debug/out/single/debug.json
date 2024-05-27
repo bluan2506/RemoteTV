@@ -4,6 +4,10 @@
         "source": "C:\\Users\\Luaan\\AndroidStudioProjects\\connectsdk\\res\\layout\\fragment_webapp.xml"
     },
     {
+        "merged": "C:\\Users\\Luaan\\AndroidStudioProjects\\connectsdk\\build\\intermediates\\merged_res\\debug\\drawable_btn_back.webp.flat",
+        "source": "C:\\Users\\Luaan\\AndroidStudioProjects\\connectsdk\\res\\drawable\\btn_back.webp"
+    },
+    {
         "merged": "C:\\Users\\Luaan\\AndroidStudioProjects\\connectsdk\\build\\intermediates\\merged_res\\debug\\drawable-hdpi_ic_info.xml.flat",
         "source": "C:\\Users\\Luaan\\AndroidStudioProjects\\connectsdk\\res\\drawable-hdpi\\ic_info.xml"
     },
@@ -16,16 +20,12 @@
         "source": "C:\\Users\\Luaan\\AndroidStudioProjects\\connectsdk\\res\\layout\\fragment_tv.xml"
     },
     {
-        "merged": "C:\\Users\\Luaan\\AndroidStudioProjects\\connectsdk\\build\\intermediates\\merged_res\\debug\\layout_item_device.xml.flat",
-        "source": "C:\\Users\\Luaan\\AndroidStudioProjects\\connectsdk\\res\\layout\\item_device.xml"
+        "merged": "C:\\Users\\Luaan\\AndroidStudioProjects\\connectsdk\\build\\intermediates\\merged_res\\debug\\drawable_ic_contact.xml.flat",
+        "source": "C:\\Users\\Luaan\\AndroidStudioProjects\\connectsdk\\res\\drawable\\ic_contact.xml"
     },
     {
-        "merged": "C:\\Users\\Luaan\\AndroidStudioProjects\\connectsdk\\build\\intermediates\\merged_res\\debug\\drawable-hdpi_drawer_shadow.9.png.flat",
-        "source": "C:\\Users\\Luaan\\AndroidStudioProjects\\connectsdk\\res\\drawable-hdpi\\drawer_shadow.9.png"
-    },
-    {
-        "merged": "C:\\Users\\Luaan\\AndroidStudioProjects\\connectsdk\\build\\intermediates\\merged_res\\debug\\drawable-hdpi_ic_setting.xml.flat",
-        "source": "C:\\Users\\Luaan\\AndroidStudioProjects\\connectsdk\\res\\drawable-hdpi\\ic_setting.xml"
+        "merged": "C:\\Users\\Luaan\\AndroidStudioProjects\\connectsdk\\build\\intermediates\\merged_res\\debug\\drawable_btn_menu.png.flat",
+        "source": "C:\\Users\\Luaan\\AndroidStudioProjects\\connectsdk\\res\\drawable\\btn_menu.png"
     },
     {
         "merged": "C:\\Users\\Luaan\\AndroidStudioProjects\\connectsdk\\build\\intermediates\\merged_res\\debug\\layout_fragment_setting.xml.flat",
@@ -36,64 +36,80 @@
         "source": "C:\\Users\\Luaan\\AndroidStudioProjects\\connectsdk\\res\\layout\\fragment_cast.xml"
     },
     {
+        "merged": "C:\\Users\\Luaan\\AndroidStudioProjects\\connectsdk\\build\\intermediates\\merged_res\\debug\\drawable_btn_pause.png.flat",
+        "source": "C:\\Users\\Luaan\\AndroidStudioProjects\\connectsdk\\res\\drawable\\btn_pause.png"
+    },
+    {
         "merged": "C:\\Users\\Luaan\\AndroidStudioProjects\\connectsdk\\build\\intermediates\\merged_res\\debug\\drawable-hdpi_ic_launcher.png.flat",
         "source": "C:\\Users\\Luaan\\AndroidStudioProjects\\connectsdk\\res\\drawable-hdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\Luaan\\AndroidStudioProjects\\connectsdk\\build\\intermediates\\merged_res\\debug\\drawable_btn_5.png.flat",
+        "source": "C:\\Users\\Luaan\\AndroidStudioProjects\\connectsdk\\res\\drawable\\btn_5.png"
+    },
+    {
+        "merged": "C:\\Users\\Luaan\\AndroidStudioProjects\\connectsdk\\build\\intermediates\\merged_res\\debug\\drawable_btn_vol.png.flat",
+        "source": "C:\\Users\\Luaan\\AndroidStudioProjects\\connectsdk\\res\\drawable\\btn_vol.png"
     },
     {
         "merged": "C:\\Users\\Luaan\\AndroidStudioProjects\\connectsdk\\build\\intermediates\\merged_res\\debug\\drawable-hdpi_ic_premium.xml.flat",
         "source": "C:\\Users\\Luaan\\AndroidStudioProjects\\connectsdk\\res\\drawable-hdpi\\ic_premium.xml"
     },
     {
-        "merged": "C:\\Users\\Luaan\\AndroidStudioProjects\\connectsdk\\build\\intermediates\\merged_res\\debug\\drawable-hdpi_ic_app.xml.flat",
-        "source": "C:\\Users\\Luaan\\AndroidStudioProjects\\connectsdk\\res\\drawable-hdpi\\ic_app.xml"
+        "merged": "C:\\Users\\Luaan\\AndroidStudioProjects\\connectsdk\\build\\intermediates\\merged_res\\debug\\font_chakra_petch_regular.ttf.flat",
+        "source": "C:\\Users\\Luaan\\AndroidStudioProjects\\connectsdk\\res\\font\\chakra_petch_regular.ttf"
     },
     {
-        "merged": "C:\\Users\\Luaan\\AndroidStudioProjects\\connectsdk\\build\\intermediates\\merged_res\\debug\\layout_fragment_media_player.xml.flat",
-        "source": "C:\\Users\\Luaan\\AndroidStudioProjects\\connectsdk\\res\\layout\\fragment_media_player.xml"
-    },
-    {
-        "merged": "C:\\Users\\Luaan\\AndroidStudioProjects\\connectsdk\\build\\intermediates\\merged_res\\debug\\drawable_bg_tab1.png.flat",
-        "source": "C:\\Users\\Luaan\\AndroidStudioProjects\\connectsdk\\res\\drawable\\bg_tab1.png"
-    },
-    {
-        "merged": "C:\\Users\\Luaan\\AndroidStudioProjects\\connectsdk\\build\\intermediates\\merged_res\\debug\\layout_fragment_system.xml.flat",
-        "source": "C:\\Users\\Luaan\\AndroidStudioProjects\\connectsdk\\res\\layout\\fragment_system.xml"
+        "merged": "C:\\Users\\Luaan\\AndroidStudioProjects\\connectsdk\\build\\intermediates\\merged_res\\debug\\drawable_ic_tell.xml.flat",
+        "source": "C:\\Users\\Luaan\\AndroidStudioProjects\\connectsdk\\res\\drawable\\ic_tell.xml"
     },
     {
         "merged": "C:\\Users\\Luaan\\AndroidStudioProjects\\connectsdk\\build\\intermediates\\merged_res\\debug\\drawable-xhdpi_drawer_shadow.9.png.flat",
         "source": "C:\\Users\\Luaan\\AndroidStudioProjects\\connectsdk\\res\\drawable-xhdpi\\drawer_shadow.9.png"
     },
     {
-        "merged": "C:\\Users\\Luaan\\AndroidStudioProjects\\connectsdk\\build\\intermediates\\merged_res\\debug\\font_chakra_petch_medium.ttf.flat",
-        "source": "C:\\Users\\Luaan\\AndroidStudioProjects\\connectsdk\\res\\font\\chakra_petch_medium.ttf"
+        "merged": "C:\\Users\\Luaan\\AndroidStudioProjects\\connectsdk\\build\\intermediates\\merged_res\\debug\\drawable_btn_play.png.flat",
+        "source": "C:\\Users\\Luaan\\AndroidStudioProjects\\connectsdk\\res\\drawable\\btn_play.png"
     },
     {
-        "merged": "C:\\Users\\Luaan\\AndroidStudioProjects\\connectsdk\\build\\intermediates\\merged_res\\debug\\drawable-hdpi_ic_connected.xml.flat",
-        "source": "C:\\Users\\Luaan\\AndroidStudioProjects\\connectsdk\\res\\drawable-hdpi\\ic_connected.xml"
+        "merged": "C:\\Users\\Luaan\\AndroidStudioProjects\\connectsdk\\build\\intermediates\\merged_res\\debug\\drawable_btn_youtube.png.flat",
+        "source": "C:\\Users\\Luaan\\AndroidStudioProjects\\connectsdk\\res\\drawable\\btn_youtube.png"
+    },
+    {
+        "merged": "C:\\Users\\Luaan\\AndroidStudioProjects\\connectsdk\\build\\intermediates\\merged_res\\debug\\drawable_img_pad.png.flat",
+        "source": "C:\\Users\\Luaan\\AndroidStudioProjects\\connectsdk\\res\\drawable\\img_pad.png"
+    },
+    {
+        "merged": "C:\\Users\\Luaan\\AndroidStudioProjects\\connectsdk\\build\\intermediates\\merged_res\\debug\\font_chakra_petch_medium.ttf.flat",
+        "source": "C:\\Users\\Luaan\\AndroidStudioProjects\\connectsdk\\res\\font\\chakra_petch_medium.ttf"
     },
     {
         "merged": "C:\\Users\\Luaan\\AndroidStudioProjects\\connectsdk\\build\\intermediates\\merged_res\\debug\\drawable-hdpi_bg_main.xml.flat",
         "source": "C:\\Users\\Luaan\\AndroidStudioProjects\\connectsdk\\res\\drawable-hdpi\\bg_main.xml"
     },
     {
-        "merged": "C:\\Users\\Luaan\\AndroidStudioProjects\\connectsdk\\build\\intermediates\\merged_res\\debug\\drawable-xhdpi_icon_17114.png.flat",
-        "source": "C:\\Users\\Luaan\\AndroidStudioProjects\\connectsdk\\res\\drawable-xhdpi\\icon_17114.png"
-    },
-    {
-        "merged": "C:\\Users\\Luaan\\AndroidStudioProjects\\connectsdk\\build\\intermediates\\merged_res\\debug\\drawable-hdpi_ic_no_connect.xml.flat",
-        "source": "C:\\Users\\Luaan\\AndroidStudioProjects\\connectsdk\\res\\drawable-hdpi\\ic_no_connect.xml"
+        "merged": "C:\\Users\\Luaan\\AndroidStudioProjects\\connectsdk\\build\\intermediates\\merged_res\\debug\\drawable_btn_stop.png.flat",
+        "source": "C:\\Users\\Luaan\\AndroidStudioProjects\\connectsdk\\res\\drawable\\btn_stop.png"
     },
     {
         "merged": "C:\\Users\\Luaan\\AndroidStudioProjects\\connectsdk\\build\\intermediates\\merged_res\\debug\\drawable-mdpi_icon_17114.png.flat",
         "source": "C:\\Users\\Luaan\\AndroidStudioProjects\\connectsdk\\res\\drawable-mdpi\\icon_17114.png"
     },
     {
-        "merged": "C:\\Users\\Luaan\\AndroidStudioProjects\\connectsdk\\build\\intermediates\\merged_res\\debug\\drawable-mdpi_ic_launcher.png.flat",
-        "source": "C:\\Users\\Luaan\\AndroidStudioProjects\\connectsdk\\res\\drawable-mdpi\\ic_launcher.png"
+        "merged": "C:\\Users\\Luaan\\AndroidStudioProjects\\connectsdk\\build\\intermediates\\merged_res\\debug\\drawable_btn_setting.webp.flat",
+        "source": "C:\\Users\\Luaan\\AndroidStudioProjects\\connectsdk\\res\\drawable\\btn_setting.webp"
     },
     {
-        "merged": "C:\\Users\\Luaan\\AndroidStudioProjects\\connectsdk\\build\\intermediates\\merged_res\\debug\\drawable-xxhdpi_ic_launcher.png.flat",
-        "source": "C:\\Users\\Luaan\\AndroidStudioProjects\\connectsdk\\res\\drawable-xxhdpi\\ic_launcher.png"
+        "merged": "C:\\Users\\Luaan\\AndroidStudioProjects\\connectsdk\\build\\intermediates\\merged_res\\debug\\drawable_bg_premium.png.flat",
+        "source": "C:\\Users\\Luaan\\AndroidStudioProjects\\connectsdk\\res\\drawable\\bg_premium.png"
+    },
+    {
+        "merged": "C:\\Users\\Luaan\\AndroidStudioProjects\\connectsdk\\build\\intermediates\\merged_res\\debug\\drawable_btn_appletv.png.flat",
+        "source": "C:\\Users\\Luaan\\AndroidStudioProjects\\connectsdk\\res\\drawable\\btn_appletv.png"
+    },
+    {
+        "merged": "C:\\Users\\Luaan\\AndroidStudioProjects\\connectsdk\\build\\intermediates\\merged_res\\debug\\drawable_bg_tab1.webp.flat",
+        "source": "C:\\Users\\Luaan\\AndroidStudioProjects\\connectsdk\\res\\drawable\\bg_tab1.webp"
     },
     {
         "merged": "C:\\Users\\Luaan\\AndroidStudioProjects\\connectsdk\\build\\intermediates\\merged_res\\debug\\drawable-xhdpi_icon_3330.png.flat",
@@ -104,76 +120,48 @@
         "source": "C:\\Users\\Luaan\\AndroidStudioProjects\\connectsdk\\res\\layout\\app_item.xml"
     },
     {
-        "merged": "C:\\Users\\Luaan\\AndroidStudioProjects\\connectsdk\\build\\intermediates\\merged_res\\debug\\drawable-xhdpi_icon_15307.png.flat",
-        "source": "C:\\Users\\Luaan\\AndroidStudioProjects\\connectsdk\\res\\drawable-xhdpi\\icon_15307.png"
-    },
-    {
-        "merged": "C:\\Users\\Luaan\\AndroidStudioProjects\\connectsdk\\build\\intermediates\\merged_res\\debug\\layout_fragment_apps.xml.flat",
-        "source": "C:\\Users\\Luaan\\AndroidStudioProjects\\connectsdk\\res\\layout\\fragment_apps.xml"
-    },
-    {
-        "merged": "C:\\Users\\Luaan\\AndroidStudioProjects\\connectsdk\\build\\intermediates\\merged_res\\debug\\drawable-mdpi_ic_drawer.png.flat",
-        "source": "C:\\Users\\Luaan\\AndroidStudioProjects\\connectsdk\\res\\drawable-mdpi\\ic_drawer.png"
+        "merged": "C:\\Users\\Luaan\\AndroidStudioProjects\\connectsdk\\build\\intermediates\\merged_res\\debug\\drawable_btn_4.png.flat",
+        "source": "C:\\Users\\Luaan\\AndroidStudioProjects\\connectsdk\\res\\drawable\\btn_4.png"
     },
     {
         "merged": "C:\\Users\\Luaan\\AndroidStudioProjects\\connectsdk\\build\\intermediates\\merged_res\\debug\\drawable-hdpi_ic_item_device.xml.flat",
         "source": "C:\\Users\\Luaan\\AndroidStudioProjects\\connectsdk\\res\\drawable-hdpi\\ic_item_device.xml"
     },
     {
-        "merged": "C:\\Users\\Luaan\\AndroidStudioProjects\\connectsdk\\build\\intermediates\\merged_res\\debug\\menu_main.xml.flat",
-        "source": "C:\\Users\\Luaan\\AndroidStudioProjects\\connectsdk\\res\\menu\\main.xml"
-    },
-    {
         "merged": "C:\\Users\\Luaan\\AndroidStudioProjects\\connectsdk\\build\\intermediates\\merged_res\\debug\\drawable-hdpi_ic_launcher_background.xml.flat",
         "source": "C:\\Users\\Luaan\\AndroidStudioProjects\\connectsdk\\res\\drawable-hdpi\\ic_launcher_background.xml"
     },
     {
-        "merged": "C:\\Users\\Luaan\\AndroidStudioProjects\\connectsdk\\build\\intermediates\\merged_res\\debug\\drawable-hdpi_bg_tab.xml.flat",
-        "source": "C:\\Users\\Luaan\\AndroidStudioProjects\\connectsdk\\res\\drawable-hdpi\\bg_tab.xml"
-    },
-    {
-        "merged": "C:\\Users\\Luaan\\AndroidStudioProjects\\connectsdk\\build\\intermediates\\merged_res\\debug\\drawable-mdpi_icon_3330.png.flat",
-        "source": "C:\\Users\\Luaan\\AndroidStudioProjects\\connectsdk\\res\\drawable-mdpi\\icon_3330.png"
-    },
-    {
-        "merged": "C:\\Users\\Luaan\\AndroidStudioProjects\\connectsdk\\build\\intermediates\\merged_res\\debug\\drawable-xxhdpi_ic_drawer.png.flat",
-        "source": "C:\\Users\\Luaan\\AndroidStudioProjects\\connectsdk\\res\\drawable-xxhdpi\\ic_drawer.png"
-    },
-    {
-        "merged": "C:\\Users\\Luaan\\AndroidStudioProjects\\connectsdk\\build\\intermediates\\merged_res\\debug\\drawable_btn_off.png.flat",
-        "source": "C:\\Users\\Luaan\\AndroidStudioProjects\\connectsdk\\res\\drawable\\btn_off.png"
+        "merged": "C:\\Users\\Luaan\\AndroidStudioProjects\\connectsdk\\build\\intermediates\\merged_res\\debug\\drawable_bg_tab2.webp.flat",
+        "source": "C:\\Users\\Luaan\\AndroidStudioProjects\\connectsdk\\res\\drawable\\bg_tab2.webp"
     },
     {
         "merged": "C:\\Users\\Luaan\\AndroidStudioProjects\\connectsdk\\build\\intermediates\\merged_res\\debug\\drawable-xhdpi_icon_15111.png.flat",
         "source": "C:\\Users\\Luaan\\AndroidStudioProjects\\connectsdk\\res\\drawable-xhdpi\\icon_15111.png"
     },
     {
+        "merged": "C:\\Users\\Luaan\\AndroidStudioProjects\\connectsdk\\build\\intermediates\\merged_res\\debug\\drawable_btn_info.webp.flat",
+        "source": "C:\\Users\\Luaan\\AndroidStudioProjects\\connectsdk\\res\\drawable\\btn_info.webp"
+    },
+    {
         "merged": "C:\\Users\\Luaan\\AndroidStudioProjects\\connectsdk\\build\\intermediates\\merged_res\\debug\\layout_fragment_app.xml.flat",
         "source": "C:\\Users\\Luaan\\AndroidStudioProjects\\connectsdk\\res\\layout\\fragment_app.xml"
-    },
-    {
-        "merged": "C:\\Users\\Luaan\\AndroidStudioProjects\\connectsdk\\build\\intermediates\\merged_res\\debug\\drawable-hdpi_corner_10dp.xml.flat",
-        "source": "C:\\Users\\Luaan\\AndroidStudioProjects\\connectsdk\\res\\drawable-hdpi\\corner_10dp.xml"
-    },
-    {
-        "merged": "C:\\Users\\Luaan\\AndroidStudioProjects\\connectsdk\\build\\intermediates\\merged_res\\debug\\layout_activity_connect.xml.flat",
-        "source": "C:\\Users\\Luaan\\AndroidStudioProjects\\connectsdk\\res\\layout\\activity_connect.xml"
     },
     {
         "merged": "C:\\Users\\Luaan\\AndroidStudioProjects\\connectsdk\\build\\intermediates\\merged_res\\debug\\drawable-mdpi_drawer_shadow.9.png.flat",
         "source": "C:\\Users\\Luaan\\AndroidStudioProjects\\connectsdk\\res\\drawable-mdpi\\drawer_shadow.9.png"
     },
     {
-        "merged": "C:\\Users\\Luaan\\AndroidStudioProjects\\connectsdk\\build\\intermediates\\merged_res\\debug\\drawable-xhdpi_ic_launcher.png.flat",
-        "source": "C:\\Users\\Luaan\\AndroidStudioProjects\\connectsdk\\res\\drawable-xhdpi\\ic_launcher.png"
-    },
-    {
         "merged": "C:\\Users\\Luaan\\AndroidStudioProjects\\connectsdk\\build\\intermediates\\merged_res\\debug\\layout_fragment_fiveway.xml.flat",
         "source": "C:\\Users\\Luaan\\AndroidStudioProjects\\connectsdk\\res\\layout\\fragment_fiveway.xml"
     },
     {
-        "merged": "C:\\Users\\Luaan\\AndroidStudioProjects\\connectsdk\\build\\intermediates\\merged_res\\debug\\drawable-mdpi_icon_15111.png.flat",
-        "source": "C:\\Users\\Luaan\\AndroidStudioProjects\\connectsdk\\res\\drawable-mdpi\\icon_15111.png"
+        "merged": "C:\\Users\\Luaan\\AndroidStudioProjects\\connectsdk\\build\\intermediates\\merged_res\\debug\\drawable_btn_home.webp.flat",
+        "source": "C:\\Users\\Luaan\\AndroidStudioProjects\\connectsdk\\res\\drawable\\btn_home.webp"
+    },
+    {
+        "merged": "C:\\Users\\Luaan\\AndroidStudioProjects\\connectsdk\\build\\intermediates\\merged_res\\debug\\drawable_btn_next.png.flat",
+        "source": "C:\\Users\\Luaan\\AndroidStudioProjects\\connectsdk\\res\\drawable\\btn_next.png"
     },
     {
         "merged": "C:\\Users\\Luaan\\AndroidStudioProjects\\connectsdk\\build\\intermediates\\merged_res\\debug\\menu_menu.xml.flat",
@@ -188,28 +176,236 @@
         "source": "C:\\Users\\Luaan\\AndroidStudioProjects\\connectsdk\\res\\layout\\activity_mainn.xml"
     },
     {
-        "merged": "C:\\Users\\Luaan\\AndroidStudioProjects\\connectsdk\\build\\intermediates\\merged_res\\debug\\drawable-mdpi_icon_12676.png.flat",
-        "source": "C:\\Users\\Luaan\\AndroidStudioProjects\\connectsdk\\res\\drawable-mdpi\\icon_12676.png"
+        "merged": "C:\\Users\\Luaan\\AndroidStudioProjects\\connectsdk\\build\\intermediates\\merged_res\\debug\\drawable_btn_a.png.flat",
+        "source": "C:\\Users\\Luaan\\AndroidStudioProjects\\connectsdk\\res\\drawable\\btn_a.png"
     },
     {
         "merged": "C:\\Users\\Luaan\\AndroidStudioProjects\\connectsdk\\build\\intermediates\\merged_res\\debug\\drawable-mdpi_icon_15307.png.flat",
         "source": "C:\\Users\\Luaan\\AndroidStudioProjects\\connectsdk\\res\\drawable-mdpi\\icon_15307.png"
     },
     {
+        "merged": "C:\\Users\\Luaan\\AndroidStudioProjects\\connectsdk\\build\\intermediates\\merged_res\\debug\\drawable-hdpi_ic_quit.xml.flat",
+        "source": "C:\\Users\\Luaan\\AndroidStudioProjects\\connectsdk\\res\\drawable-hdpi\\ic_quit.xml"
+    },
+    {
         "merged": "C:\\Users\\Luaan\\AndroidStudioProjects\\connectsdk\\build\\intermediates\\merged_res\\debug\\drawable-hdpi_ic_drawer.png.flat",
         "source": "C:\\Users\\Luaan\\AndroidStudioProjects\\connectsdk\\res\\drawable-hdpi\\ic_drawer.png"
     },
     {
-        "merged": "C:\\Users\\Luaan\\AndroidStudioProjects\\connectsdk\\build\\intermediates\\merged_res\\debug\\drawable-hdpi_ic_quit.xml.flat",
-        "source": "C:\\Users\\Luaan\\AndroidStudioProjects\\connectsdk\\res\\drawable-hdpi\\ic_quit.xml"
+        "merged": "C:\\Users\\Luaan\\AndroidStudioProjects\\connectsdk\\build\\intermediates\\merged_res\\debug\\drawable_bg_btn_app.xml.flat",
+        "source": "C:\\Users\\Luaan\\AndroidStudioProjects\\connectsdk\\res\\drawable\\bg_btn_app.xml"
+    },
+    {
+        "merged": "C:\\Users\\Luaan\\AndroidStudioProjects\\connectsdk\\build\\intermediates\\merged_res\\debug\\drawable-xhdpi_icon_12676.png.flat",
+        "source": "C:\\Users\\Luaan\\AndroidStudioProjects\\connectsdk\\res\\drawable-xhdpi\\icon_12676.png"
+    },
+    {
+        "merged": "C:\\Users\\Luaan\\AndroidStudioProjects\\connectsdk\\build\\intermediates\\merged_res\\debug\\drawable_btn_3.png.flat",
+        "source": "C:\\Users\\Luaan\\AndroidStudioProjects\\connectsdk\\res\\drawable\\btn_3.png"
+    },
+    {
+        "merged": "C:\\Users\\Luaan\\AndroidStudioProjects\\connectsdk\\build\\intermediates\\merged_res\\debug\\drawable_custom_track.xml.flat",
+        "source": "C:\\Users\\Luaan\\AndroidStudioProjects\\connectsdk\\res\\drawable\\custom_track.xml"
+    },
+    {
+        "merged": "C:\\Users\\Luaan\\AndroidStudioProjects\\connectsdk\\build\\intermediates\\merged_res\\debug\\drawable-hdpi_bg_bottom_nav.xml.flat",
+        "source": "C:\\Users\\Luaan\\AndroidStudioProjects\\connectsdk\\res\\drawable-hdpi\\bg_bottom_nav.xml"
+    },
+    {
+        "merged": "C:\\Users\\Luaan\\AndroidStudioProjects\\connectsdk\\build\\intermediates\\merged_res\\debug\\drawable_btn_off.webp.flat",
+        "source": "C:\\Users\\Luaan\\AndroidStudioProjects\\connectsdk\\res\\drawable\\btn_off.webp"
+    },
+    {
+        "merged": "C:\\Users\\Luaan\\AndroidStudioProjects\\connectsdk\\build\\intermediates\\merged_res\\debug\\layout_activity_main.xml.flat",
+        "source": "C:\\Users\\Luaan\\AndroidStudioProjects\\connectsdk\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\Luaan\\AndroidStudioProjects\\connectsdk\\build\\intermediates\\merged_res\\debug\\drawable_btn_previous.png.flat",
+        "source": "C:\\Users\\Luaan\\AndroidStudioProjects\\connectsdk\\res\\drawable\\btn_previous.png"
+    },
+    {
+        "merged": "C:\\Users\\Luaan\\AndroidStudioProjects\\connectsdk\\build\\intermediates\\merged_res\\debug\\drawable_btn_6.png.flat",
+        "source": "C:\\Users\\Luaan\\AndroidStudioProjects\\connectsdk\\res\\drawable\\btn_6.png"
+    },
+    {
+        "merged": "C:\\Users\\Luaan\\AndroidStudioProjects\\connectsdk\\build\\intermediates\\merged_res\\debug\\drawable-mdpi_icon_17183.png.flat",
+        "source": "C:\\Users\\Luaan\\AndroidStudioProjects\\connectsdk\\res\\drawable-mdpi\\icon_17183.png"
+    },
+    {
+        "merged": "C:\\Users\\Luaan\\AndroidStudioProjects\\connectsdk\\build\\intermediates\\merged_res\\debug\\font_chakra_petch_light.ttf.flat",
+        "source": "C:\\Users\\Luaan\\AndroidStudioProjects\\connectsdk\\res\\font\\chakra_petch_light.ttf"
+    },
+    {
+        "merged": "C:\\Users\\Luaan\\AndroidStudioProjects\\connectsdk\\build\\intermediates\\merged_res\\debug\\drawable_btn_9.png.flat",
+        "source": "C:\\Users\\Luaan\\AndroidStudioProjects\\connectsdk\\res\\drawable\\btn_9.png"
+    },
+    {
+        "merged": "C:\\Users\\Luaan\\AndroidStudioProjects\\connectsdk\\build\\intermediates\\merged_res\\debug\\drawable_ic_question.xml.flat",
+        "source": "C:\\Users\\Luaan\\AndroidStudioProjects\\connectsdk\\res\\drawable\\ic_question.xml"
+    },
+    {
+        "merged": "C:\\Users\\Luaan\\AndroidStudioProjects\\connectsdk\\build\\intermediates\\merged_res\\debug\\drawable_btn_1.png.flat",
+        "source": "C:\\Users\\Luaan\\AndroidStudioProjects\\connectsdk\\res\\drawable\\btn_1.png"
+    },
+    {
+        "merged": "C:\\Users\\Luaan\\AndroidStudioProjects\\connectsdk\\build\\intermediates\\merged_res\\debug\\drawable_btn_guide.png.flat",
+        "source": "C:\\Users\\Luaan\\AndroidStudioProjects\\connectsdk\\res\\drawable\\btn_guide.png"
+    },
+    {
+        "merged": "C:\\Users\\Luaan\\AndroidStudioProjects\\connectsdk\\build\\intermediates\\merged_res\\debug\\layout_item_device.xml.flat",
+        "source": "C:\\Users\\Luaan\\AndroidStudioProjects\\connectsdk\\res\\layout\\item_device.xml"
+    },
+    {
+        "merged": "C:\\Users\\Luaan\\AndroidStudioProjects\\connectsdk\\build\\intermediates\\merged_res\\debug\\drawable-hdpi_ic_setting.xml.flat",
+        "source": "C:\\Users\\Luaan\\AndroidStudioProjects\\connectsdk\\res\\drawable-hdpi\\ic_setting.xml"
+    },
+    {
+        "merged": "C:\\Users\\Luaan\\AndroidStudioProjects\\connectsdk\\build\\intermediates\\merged_res\\debug\\drawable-hdpi_drawer_shadow.9.png.flat",
+        "source": "C:\\Users\\Luaan\\AndroidStudioProjects\\connectsdk\\res\\drawable-hdpi\\drawer_shadow.9.png"
+    },
+    {
+        "merged": "C:\\Users\\Luaan\\AndroidStudioProjects\\connectsdk\\build\\intermediates\\merged_res\\debug\\drawable_btn_c.png.flat",
+        "source": "C:\\Users\\Luaan\\AndroidStudioProjects\\connectsdk\\res\\drawable\\btn_c.png"
+    },
+    {
+        "merged": "C:\\Users\\Luaan\\AndroidStudioProjects\\connectsdk\\build\\intermediates\\merged_res\\debug\\drawable_bg_tab3.webp.flat",
+        "source": "C:\\Users\\Luaan\\AndroidStudioProjects\\connectsdk\\res\\drawable\\bg_tab3.webp"
+    },
+    {
+        "merged": "C:\\Users\\Luaan\\AndroidStudioProjects\\connectsdk\\build\\intermediates\\merged_res\\debug\\drawable_ic_haptic.xml.flat",
+        "source": "C:\\Users\\Luaan\\AndroidStudioProjects\\connectsdk\\res\\drawable\\ic_haptic.xml"
+    },
+    {
+        "merged": "C:\\Users\\Luaan\\AndroidStudioProjects\\connectsdk\\build\\intermediates\\merged_res\\debug\\drawable_btn_rec.png.flat",
+        "source": "C:\\Users\\Luaan\\AndroidStudioProjects\\connectsdk\\res\\drawable\\btn_rec.png"
+    },
+    {
+        "merged": "C:\\Users\\Luaan\\AndroidStudioProjects\\connectsdk\\build\\intermediates\\merged_res\\debug\\drawable_btn_8.png.flat",
+        "source": "C:\\Users\\Luaan\\AndroidStudioProjects\\connectsdk\\res\\drawable\\btn_8.png"
+    },
+    {
+        "merged": "C:\\Users\\Luaan\\AndroidStudioProjects\\connectsdk\\build\\intermediates\\merged_res\\debug\\drawable-hdpi_ic_app.xml.flat",
+        "source": "C:\\Users\\Luaan\\AndroidStudioProjects\\connectsdk\\res\\drawable-hdpi\\ic_app.xml"
+    },
+    {
+        "merged": "C:\\Users\\Luaan\\AndroidStudioProjects\\connectsdk\\build\\intermediates\\merged_res\\debug\\layout_fragment_media_player.xml.flat",
+        "source": "C:\\Users\\Luaan\\AndroidStudioProjects\\connectsdk\\res\\layout\\fragment_media_player.xml"
+    },
+    {
+        "merged": "C:\\Users\\Luaan\\AndroidStudioProjects\\connectsdk\\build\\intermediates\\merged_res\\debug\\layout_fragment_system.xml.flat",
+        "source": "C:\\Users\\Luaan\\AndroidStudioProjects\\connectsdk\\res\\layout\\fragment_system.xml"
+    },
+    {
+        "merged": "C:\\Users\\Luaan\\AndroidStudioProjects\\connectsdk\\build\\intermediates\\merged_res\\debug\\drawable_ic_policy.xml.flat",
+        "source": "C:\\Users\\Luaan\\AndroidStudioProjects\\connectsdk\\res\\drawable\\ic_policy.xml"
+    },
+    {
+        "merged": "C:\\Users\\Luaan\\AndroidStudioProjects\\connectsdk\\build\\intermediates\\merged_res\\debug\\drawable-hdpi_ic_connected.xml.flat",
+        "source": "C:\\Users\\Luaan\\AndroidStudioProjects\\connectsdk\\res\\drawable-hdpi\\ic_connected.xml"
+    },
+    {
+        "merged": "C:\\Users\\Luaan\\AndroidStudioProjects\\connectsdk\\build\\intermediates\\merged_res\\debug\\drawable_btn_0.png.flat",
+        "source": "C:\\Users\\Luaan\\AndroidStudioProjects\\connectsdk\\res\\drawable\\btn_0.png"
+    },
+    {
+        "merged": "C:\\Users\\Luaan\\AndroidStudioProjects\\connectsdk\\build\\intermediates\\merged_res\\debug\\drawable_btn_d.png.flat",
+        "source": "C:\\Users\\Luaan\\AndroidStudioProjects\\connectsdk\\res\\drawable\\btn_d.png"
+    },
+    {
+        "merged": "C:\\Users\\Luaan\\AndroidStudioProjects\\connectsdk\\build\\intermediates\\merged_res\\debug\\drawable-xhdpi_icon_17114.png.flat",
+        "source": "C:\\Users\\Luaan\\AndroidStudioProjects\\connectsdk\\res\\drawable-xhdpi\\icon_17114.png"
+    },
+    {
+        "merged": "C:\\Users\\Luaan\\AndroidStudioProjects\\connectsdk\\build\\intermediates\\merged_res\\debug\\drawable-hdpi_ic_no_connect.xml.flat",
+        "source": "C:\\Users\\Luaan\\AndroidStudioProjects\\connectsdk\\res\\drawable-hdpi\\ic_no_connect.xml"
+    },
+    {
+        "merged": "C:\\Users\\Luaan\\AndroidStudioProjects\\connectsdk\\build\\intermediates\\merged_res\\debug\\drawable-mdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\Luaan\\AndroidStudioProjects\\connectsdk\\res\\drawable-mdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\Luaan\\AndroidStudioProjects\\connectsdk\\build\\intermediates\\merged_res\\debug\\drawable-xxhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\Luaan\\AndroidStudioProjects\\connectsdk\\res\\drawable-xxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\Luaan\\AndroidStudioProjects\\connectsdk\\build\\intermediates\\merged_res\\debug\\drawable_btn_7.png.flat",
+        "source": "C:\\Users\\Luaan\\AndroidStudioProjects\\connectsdk\\res\\drawable\\btn_7.png"
+    },
+    {
+        "merged": "C:\\Users\\Luaan\\AndroidStudioProjects\\connectsdk\\build\\intermediates\\merged_res\\debug\\layout_fragment_apps.xml.flat",
+        "source": "C:\\Users\\Luaan\\AndroidStudioProjects\\connectsdk\\res\\layout\\fragment_apps.xml"
+    },
+    {
+        "merged": "C:\\Users\\Luaan\\AndroidStudioProjects\\connectsdk\\build\\intermediates\\merged_res\\debug\\drawable-xhdpi_icon_15307.png.flat",
+        "source": "C:\\Users\\Luaan\\AndroidStudioProjects\\connectsdk\\res\\drawable-xhdpi\\icon_15307.png"
+    },
+    {
+        "merged": "C:\\Users\\Luaan\\AndroidStudioProjects\\connectsdk\\build\\intermediates\\merged_res\\debug\\drawable-mdpi_ic_drawer.png.flat",
+        "source": "C:\\Users\\Luaan\\AndroidStudioProjects\\connectsdk\\res\\drawable-mdpi\\ic_drawer.png"
+    },
+    {
+        "merged": "C:\\Users\\Luaan\\AndroidStudioProjects\\connectsdk\\build\\intermediates\\merged_res\\debug\\drawable_btn_netflix.png.flat",
+        "source": "C:\\Users\\Luaan\\AndroidStudioProjects\\connectsdk\\res\\drawable\\btn_netflix.png"
+    },
+    {
+        "merged": "C:\\Users\\Luaan\\AndroidStudioProjects\\connectsdk\\build\\intermediates\\merged_res\\debug\\menu_main.xml.flat",
+        "source": "C:\\Users\\Luaan\\AndroidStudioProjects\\connectsdk\\res\\menu\\main.xml"
+    },
+    {
+        "merged": "C:\\Users\\Luaan\\AndroidStudioProjects\\connectsdk\\build\\intermediates\\merged_res\\debug\\drawable_btn_exit.webp.flat",
+        "source": "C:\\Users\\Luaan\\AndroidStudioProjects\\connectsdk\\res\\drawable\\btn_exit.webp"
+    },
+    {
+        "merged": "C:\\Users\\Luaan\\AndroidStudioProjects\\connectsdk\\build\\intermediates\\merged_res\\debug\\drawable-hdpi_bg_tab.xml.flat",
+        "source": "C:\\Users\\Luaan\\AndroidStudioProjects\\connectsdk\\res\\drawable-hdpi\\bg_tab.xml"
+    },
+    {
+        "merged": "C:\\Users\\Luaan\\AndroidStudioProjects\\connectsdk\\build\\intermediates\\merged_res\\debug\\drawable-mdpi_icon_3330.png.flat",
+        "source": "C:\\Users\\Luaan\\AndroidStudioProjects\\connectsdk\\res\\drawable-mdpi\\icon_3330.png"
+    },
+    {
+        "merged": "C:\\Users\\Luaan\\AndroidStudioProjects\\connectsdk\\build\\intermediates\\merged_res\\debug\\drawable-xxhdpi_ic_drawer.png.flat",
+        "source": "C:\\Users\\Luaan\\AndroidStudioProjects\\connectsdk\\res\\drawable-xxhdpi\\ic_drawer.png"
+    },
+    {
+        "merged": "C:\\Users\\Luaan\\AndroidStudioProjects\\connectsdk\\build\\intermediates\\merged_res\\debug\\drawable-hdpi_corner_10dp.xml.flat",
+        "source": "C:\\Users\\Luaan\\AndroidStudioProjects\\connectsdk\\res\\drawable-hdpi\\corner_10dp.xml"
+    },
+    {
+        "merged": "C:\\Users\\Luaan\\AndroidStudioProjects\\connectsdk\\build\\intermediates\\merged_res\\debug\\layout_activity_connect.xml.flat",
+        "source": "C:\\Users\\Luaan\\AndroidStudioProjects\\connectsdk\\res\\layout\\activity_connect.xml"
+    },
+    {
+        "merged": "C:\\Users\\Luaan\\AndroidStudioProjects\\connectsdk\\build\\intermediates\\merged_res\\debug\\drawable-xhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\Luaan\\AndroidStudioProjects\\connectsdk\\res\\drawable-xhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\Luaan\\AndroidStudioProjects\\connectsdk\\build\\intermediates\\merged_res\\debug\\drawable-mdpi_icon_15111.png.flat",
+        "source": "C:\\Users\\Luaan\\AndroidStudioProjects\\connectsdk\\res\\drawable-mdpi\\icon_15111.png"
+    },
+    {
+        "merged": "C:\\Users\\Luaan\\AndroidStudioProjects\\connectsdk\\build\\intermediates\\merged_res\\debug\\drawable-mdpi_icon_12676.png.flat",
+        "source": "C:\\Users\\Luaan\\AndroidStudioProjects\\connectsdk\\res\\drawable-mdpi\\icon_12676.png"
+    },
+    {
+        "merged": "C:\\Users\\Luaan\\AndroidStudioProjects\\connectsdk\\build\\intermediates\\merged_res\\debug\\drawable_ic_term.xml.flat",
+        "source": "C:\\Users\\Luaan\\AndroidStudioProjects\\connectsdk\\res\\drawable\\ic_term.xml"
+    },
+    {
+        "merged": "C:\\Users\\Luaan\\AndroidStudioProjects\\connectsdk\\build\\intermediates\\merged_res\\debug\\drawable_btn_pre_ch.png.flat",
+        "source": "C:\\Users\\Luaan\\AndroidStudioProjects\\connectsdk\\res\\drawable\\btn_pre_ch.png"
+    },
+    {
+        "merged": "C:\\Users\\Luaan\\AndroidStudioProjects\\connectsdk\\build\\intermediates\\merged_res\\debug\\font_chakra_petch_bold.ttf.flat",
+        "source": "C:\\Users\\Luaan\\AndroidStudioProjects\\connectsdk\\res\\font\\chakra_petch_bold.ttf"
     },
     {
         "merged": "C:\\Users\\Luaan\\AndroidStudioProjects\\connectsdk\\build\\intermediates\\merged_res\\debug\\drawable-xxhdpi_drawer_shadow.9.png.flat",
         "source": "C:\\Users\\Luaan\\AndroidStudioProjects\\connectsdk\\res\\drawable-xxhdpi\\drawer_shadow.9.png"
     },
     {
-        "merged": "C:\\Users\\Luaan\\AndroidStudioProjects\\connectsdk\\build\\intermediates\\merged_res\\debug\\drawable-xhdpi_icon_12676.png.flat",
-        "source": "C:\\Users\\Luaan\\AndroidStudioProjects\\connectsdk\\res\\drawable-xhdpi\\icon_12676.png"
+        "merged": "C:\\Users\\Luaan\\AndroidStudioProjects\\connectsdk\\build\\intermediates\\merged_res\\debug\\drawable_ic_restore.xml.flat",
+        "source": "C:\\Users\\Luaan\\AndroidStudioProjects\\connectsdk\\res\\drawable\\ic_restore.xml"
     },
     {
         "merged": "C:\\Users\\Luaan\\AndroidStudioProjects\\connectsdk\\build\\intermediates\\merged_res\\debug\\drawable-xhdpi_icon_17183.png.flat",
@@ -220,32 +416,36 @@
         "source": "C:\\Users\\Luaan\\AndroidStudioProjects\\connectsdk\\res\\drawable-hdpi\\ic_cast.xml"
     },
     {
-        "merged": "C:\\Users\\Luaan\\AndroidStudioProjects\\connectsdk\\build\\intermediates\\merged_res\\debug\\drawable_btn_home.png.flat",
-        "source": "C:\\Users\\Luaan\\AndroidStudioProjects\\connectsdk\\res\\drawable\\btn_home.png"
+        "merged": "C:\\Users\\Luaan\\AndroidStudioProjects\\connectsdk\\build\\intermediates\\merged_res\\debug\\drawable_btn_mute.png.flat",
+        "source": "C:\\Users\\Luaan\\AndroidStudioProjects\\connectsdk\\res\\drawable\\btn_mute.png"
     },
     {
-        "merged": "C:\\Users\\Luaan\\AndroidStudioProjects\\connectsdk\\build\\intermediates\\merged_res\\debug\\drawable_btn_info.png.flat",
-        "source": "C:\\Users\\Luaan\\AndroidStudioProjects\\connectsdk\\res\\drawable\\btn_info.png"
+        "merged": "C:\\Users\\Luaan\\AndroidStudioProjects\\connectsdk\\build\\intermediates\\merged_res\\debug\\drawable_custom_thumb.xml.flat",
+        "source": "C:\\Users\\Luaan\\AndroidStudioProjects\\connectsdk\\res\\drawable\\custom_thumb.xml"
+    },
+    {
+        "merged": "C:\\Users\\Luaan\\AndroidStudioProjects\\connectsdk\\build\\intermediates\\merged_res\\debug\\drawable_btn_2.png.flat",
+        "source": "C:\\Users\\Luaan\\AndroidStudioProjects\\connectsdk\\res\\drawable\\btn_2.png"
     },
     {
         "merged": "C:\\Users\\Luaan\\AndroidStudioProjects\\connectsdk\\build\\intermediates\\merged_res\\debug\\layout_fragment_navigation_drawer.xml.flat",
         "source": "C:\\Users\\Luaan\\AndroidStudioProjects\\connectsdk\\res\\layout\\fragment_navigation_drawer.xml"
     },
     {
-        "merged": "C:\\Users\\Luaan\\AndroidStudioProjects\\connectsdk\\build\\intermediates\\merged_res\\debug\\drawable-hdpi_bg_bottom_nav.xml.flat",
-        "source": "C:\\Users\\Luaan\\AndroidStudioProjects\\connectsdk\\res\\drawable-hdpi\\bg_bottom_nav.xml"
+        "merged": "C:\\Users\\Luaan\\AndroidStudioProjects\\connectsdk\\build\\intermediates\\merged_res\\debug\\drawable_img_404.png.flat",
+        "source": "C:\\Users\\Luaan\\AndroidStudioProjects\\connectsdk\\res\\drawable\\img_404.png"
     },
     {
         "merged": "C:\\Users\\Luaan\\AndroidStudioProjects\\connectsdk\\build\\intermediates\\merged_res\\debug\\layout_fragment_remote.xml.flat",
         "source": "C:\\Users\\Luaan\\AndroidStudioProjects\\connectsdk\\res\\layout\\fragment_remote.xml"
     },
     {
-        "merged": "C:\\Users\\Luaan\\AndroidStudioProjects\\connectsdk\\build\\intermediates\\merged_res\\debug\\layout_activity_main.xml.flat",
-        "source": "C:\\Users\\Luaan\\AndroidStudioProjects\\connectsdk\\res\\layout\\activity_main.xml"
+        "merged": "C:\\Users\\Luaan\\AndroidStudioProjects\\connectsdk\\build\\intermediates\\merged_res\\debug\\drawable_btn_circle.webp.flat",
+        "source": "C:\\Users\\Luaan\\AndroidStudioProjects\\connectsdk\\res\\drawable\\btn_circle.webp"
     },
     {
-        "merged": "C:\\Users\\Luaan\\AndroidStudioProjects\\connectsdk\\build\\intermediates\\merged_res\\debug\\drawable-mdpi_icon_17183.png.flat",
-        "source": "C:\\Users\\Luaan\\AndroidStudioProjects\\connectsdk\\res\\drawable-mdpi\\icon_17183.png"
+        "merged": "C:\\Users\\Luaan\\AndroidStudioProjects\\connectsdk\\build\\intermediates\\merged_res\\debug\\drawable_btn_b.png.flat",
+        "source": "C:\\Users\\Luaan\\AndroidStudioProjects\\connectsdk\\res\\drawable\\btn_b.png"
     },
     {
         "merged": "C:\\Users\\Luaan\\AndroidStudioProjects\\connectsdk\\build\\intermediates\\merged_res\\debug\\drawable-hdpi_ic_launcher_foreground.xml.flat",
@@ -256,11 +456,11 @@
         "source": "C:\\Users\\Luaan\\AndroidStudioProjects\\connectsdk\\res\\drawable\\bg_remote.xml"
     },
     {
-        "merged": "C:\\Users\\Luaan\\AndroidStudioProjects\\connectsdk\\build\\intermediates\\merged_res\\debug\\font_chakra_petch_light.ttf.flat",
-        "source": "C:\\Users\\Luaan\\AndroidStudioProjects\\connectsdk\\res\\font\\chakra_petch_light.ttf"
-    },
-    {
         "merged": "C:\\Users\\Luaan\\AndroidStudioProjects\\connectsdk\\build\\intermediates\\merged_res\\debug\\layout_channel_item.xml.flat",
         "source": "C:\\Users\\Luaan\\AndroidStudioProjects\\connectsdk\\res\\layout\\channel_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\Luaan\\AndroidStudioProjects\\connectsdk\\build\\intermediates\\merged_res\\debug\\drawable_btn_ch.png.flat",
+        "source": "C:\\Users\\Luaan\\AndroidStudioProjects\\connectsdk\\res\\drawable\\btn_ch.png"
     }
 ]

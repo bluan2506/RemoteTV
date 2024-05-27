@@ -4,25 +4,63 @@ package com.connectsdk.sampler.databinding;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.FrameLayout;
+import android.widget.ImageView;
+import android.widget.LinearLayout;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.viewbinding.ViewBinding;
+import androidx.viewbinding.ViewBindings;
 import com.connectsdk.sampler.R;
 import java.lang.NullPointerException;
 import java.lang.Override;
+import java.lang.String;
 
 public final class FragmentSettingBinding implements ViewBinding {
   @NonNull
-  private final FrameLayout rootView;
+  private final LinearLayout rootView;
 
-  private FragmentSettingBinding(@NonNull FrameLayout rootView) {
+  @NonNull
+  public final ImageView icApp;
+
+  @NonNull
+  public final ImageView icContact;
+
+  @NonNull
+  public final ImageView icHaptic;
+
+  @NonNull
+  public final ImageView icPolicy;
+
+  @NonNull
+  public final ImageView icQuestion;
+
+  @NonNull
+  public final ImageView icRestore;
+
+  @NonNull
+  public final ImageView icTell;
+
+  @NonNull
+  public final ImageView icTerm;
+
+  private FragmentSettingBinding(@NonNull LinearLayout rootView, @NonNull ImageView icApp,
+      @NonNull ImageView icContact, @NonNull ImageView icHaptic, @NonNull ImageView icPolicy,
+      @NonNull ImageView icQuestion, @NonNull ImageView icRestore, @NonNull ImageView icTell,
+      @NonNull ImageView icTerm) {
     this.rootView = rootView;
+    this.icApp = icApp;
+    this.icContact = icContact;
+    this.icHaptic = icHaptic;
+    this.icPolicy = icPolicy;
+    this.icQuestion = icQuestion;
+    this.icRestore = icRestore;
+    this.icTell = icTell;
+    this.icTerm = icTerm;
   }
 
   @Override
   @NonNull
-  public FrameLayout getRoot() {
+  public LinearLayout getRoot() {
     return rootView;
   }
 
@@ -43,10 +81,62 @@ public final class FragmentSettingBinding implements ViewBinding {
 
   @NonNull
   public static FragmentSettingBinding bind(@NonNull View rootView) {
-    if (rootView == null) {
-      throw new NullPointerException("rootView");
-    }
+    // The body of this method is generated in a way you would not otherwise write.
+    // This is done to optimize the compiled bytecode for size and performance.
+    int id;
+    missingId: {
+      id = R.id.icApp;
+      ImageView icApp = ViewBindings.findChildViewById(rootView, id);
+      if (icApp == null) {
+        break missingId;
+      }
 
-    return new FragmentSettingBinding((FrameLayout) rootView);
+      id = R.id.icContact;
+      ImageView icContact = ViewBindings.findChildViewById(rootView, id);
+      if (icContact == null) {
+        break missingId;
+      }
+
+      id = R.id.icHaptic;
+      ImageView icHaptic = ViewBindings.findChildViewById(rootView, id);
+      if (icHaptic == null) {
+        break missingId;
+      }
+
+      id = R.id.icPolicy;
+      ImageView icPolicy = ViewBindings.findChildViewById(rootView, id);
+      if (icPolicy == null) {
+        break missingId;
+      }
+
+      id = R.id.icQuestion;
+      ImageView icQuestion = ViewBindings.findChildViewById(rootView, id);
+      if (icQuestion == null) {
+        break missingId;
+      }
+
+      id = R.id.icRestore;
+      ImageView icRestore = ViewBindings.findChildViewById(rootView, id);
+      if (icRestore == null) {
+        break missingId;
+      }
+
+      id = R.id.icTell;
+      ImageView icTell = ViewBindings.findChildViewById(rootView, id);
+      if (icTell == null) {
+        break missingId;
+      }
+
+      id = R.id.icTerm;
+      ImageView icTerm = ViewBindings.findChildViewById(rootView, id);
+      if (icTerm == null) {
+        break missingId;
+      }
+
+      return new FragmentSettingBinding((LinearLayout) rootView, icApp, icContact, icHaptic,
+          icPolicy, icQuestion, icRestore, icTell, icTerm);
+    }
+    String missingId = rootView.getResources().getResourceName(id);
+    throw new NullPointerException("Missing required view with ID: ".concat(missingId));
   }
 }
