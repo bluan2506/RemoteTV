@@ -4,25 +4,45 @@ package com.connectsdk.sampler.databinding;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.FrameLayout;
+import android.widget.ImageView;
+import android.widget.LinearLayout;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.viewbinding.ViewBinding;
+import androidx.viewbinding.ViewBindings;
 import com.connectsdk.sampler.R;
 import java.lang.NullPointerException;
 import java.lang.Override;
+import java.lang.String;
 
 public final class FragmentCastBinding implements ViewBinding {
   @NonNull
-  private final FrameLayout rootView;
+  private final LinearLayout rootView;
 
-  private FragmentCastBinding(@NonNull FrameLayout rootView) {
+  @NonNull
+  public final ImageView btnIPTV;
+
+  @NonNull
+  public final ImageView btnPhoto;
+
+  @NonNull
+  public final ImageView btnVideo;
+
+  @NonNull
+  public final ImageView btnYoutube;
+
+  private FragmentCastBinding(@NonNull LinearLayout rootView, @NonNull ImageView btnIPTV,
+      @NonNull ImageView btnPhoto, @NonNull ImageView btnVideo, @NonNull ImageView btnYoutube) {
     this.rootView = rootView;
+    this.btnIPTV = btnIPTV;
+    this.btnPhoto = btnPhoto;
+    this.btnVideo = btnVideo;
+    this.btnYoutube = btnYoutube;
   }
 
   @Override
   @NonNull
-  public FrameLayout getRoot() {
+  public LinearLayout getRoot() {
     return rootView;
   }
 
@@ -43,10 +63,38 @@ public final class FragmentCastBinding implements ViewBinding {
 
   @NonNull
   public static FragmentCastBinding bind(@NonNull View rootView) {
-    if (rootView == null) {
-      throw new NullPointerException("rootView");
-    }
+    // The body of this method is generated in a way you would not otherwise write.
+    // This is done to optimize the compiled bytecode for size and performance.
+    int id;
+    missingId: {
+      id = R.id.btnIPTV;
+      ImageView btnIPTV = ViewBindings.findChildViewById(rootView, id);
+      if (btnIPTV == null) {
+        break missingId;
+      }
 
-    return new FragmentCastBinding((FrameLayout) rootView);
+      id = R.id.btnPhoto;
+      ImageView btnPhoto = ViewBindings.findChildViewById(rootView, id);
+      if (btnPhoto == null) {
+        break missingId;
+      }
+
+      id = R.id.btnVideo;
+      ImageView btnVideo = ViewBindings.findChildViewById(rootView, id);
+      if (btnVideo == null) {
+        break missingId;
+      }
+
+      id = R.id.btnYoutube;
+      ImageView btnYoutube = ViewBindings.findChildViewById(rootView, id);
+      if (btnYoutube == null) {
+        break missingId;
+      }
+
+      return new FragmentCastBinding((LinearLayout) rootView, btnIPTV, btnPhoto, btnVideo,
+          btnYoutube);
+    }
+    String missingId = rootView.getResources().getResourceName(id);
+    throw new NullPointerException("Missing required view with ID: ".concat(missingId));
   }
 }

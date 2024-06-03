@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\Luaan\\AndroidStudioProjects\\connectsdk\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-mn-rMN\\values-mn-rMN.xml",
+            "outputFile": "D:\\PercasApp\\RemoteTV\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-mn-rMN\\values-mn-rMN.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Luaan\\.gradle\\caches\\transforms-3\\ed8b473e3c211c09cdf0b9daa405b79c\\transformed\\jetified-Connect-SDK-Android-2.0.0\\res\\values-mn-rMN\\values-mn-rMN.xml",
+                    "source": "C:\\Users\\LEGION\\.gradle\\caches\\transforms-3\\a248a30fcd98b3054421dbbbc5e16788\\transformed\\jetified-Connect-SDK-Android-2.0.0\\res\\values-mn-rMN\\values-mn-rMN.xml",
                     "from": {
                         "startLines": "2,3,4,5,6",
                         "startColumns": "4,4,4,4,4",

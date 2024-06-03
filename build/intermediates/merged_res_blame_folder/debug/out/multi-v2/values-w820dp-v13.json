@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\Luaan\\AndroidStudioProjects\\connectsdk\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-w820dp-v13\\values-w820dp-v13.xml",
+            "outputFile": "D:\\PercasApp\\RemoteTV\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-w820dp-v13\\values-w820dp-v13.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Luaan\\AndroidStudioProjects\\connectsdk\\res\\values-w820dp\\dimens.xml",
+                    "source": "D:\\PercasApp\\RemoteTV\\res\\values-w820dp\\dimens.xml",
                     "from": {
                         "startLines": "4",
                         "startColumns": "4",

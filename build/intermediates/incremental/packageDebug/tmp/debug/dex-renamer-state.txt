@@ -1,14 +1,14 @@
-#Mon May 27 17:31:55 ICT 2024
-base.0=C\:\\Users\\Luaan\\AndroidStudioProjects\\connectsdk\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes.dex
-base.1=C\:\\Users\\Luaan\\AndroidStudioProjects\\connectsdk\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\0\\classes.dex
-base.2=C\:\\Users\\Luaan\\AndroidStudioProjects\\connectsdk\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\11\\classes.dex
-base.3=C\:\\Users\\Luaan\\AndroidStudioProjects\\connectsdk\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\13\\classes.dex
-base.4=C\:\\Users\\Luaan\\AndroidStudioProjects\\connectsdk\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\15\\classes.dex
-base.5=C\:\\Users\\Luaan\\AndroidStudioProjects\\connectsdk\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\1\\classes.dex
-base.6=C\:\\Users\\Luaan\\AndroidStudioProjects\\connectsdk\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\6\\classes.dex
-base.7=C\:\\Users\\Luaan\\AndroidStudioProjects\\connectsdk\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\8\\classes.dex
-base.8=C\:\\Users\\Luaan\\AndroidStudioProjects\\connectsdk\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes2.dex
-base.9=C\:\\Users\\Luaan\\AndroidStudioProjects\\connectsdk\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes3.dex
+#Mon Jun 03 08:53:39 ICT 2024
+base.0=D\:\\PercasApp\\RemoteTV\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes.dex
+base.1=D\:\\PercasApp\\RemoteTV\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\0\\classes.dex
+base.2=D\:\\PercasApp\\RemoteTV\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\11\\classes.dex
+base.3=D\:\\PercasApp\\RemoteTV\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\13\\classes.dex
+base.4=D\:\\PercasApp\\RemoteTV\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\15\\classes.dex
+base.5=D\:\\PercasApp\\RemoteTV\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\1\\classes.dex
+base.6=D\:\\PercasApp\\RemoteTV\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\6\\classes.dex
+base.7=D\:\\PercasApp\\RemoteTV\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\8\\classes.dex
+base.8=D\:\\PercasApp\\RemoteTV\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes2.dex
+base.9=D\:\\PercasApp\\RemoteTV\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes3.dex
 path.0=classes.dex
 path.1=0/classes.dex
 path.2=11/classes.dex

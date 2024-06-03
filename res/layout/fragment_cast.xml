@@ -1,14 +1,106 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
     tools:context=".fragment.CastFragment">
 
-    <TextView
-        android:gravity="center"
+    <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="Cast" />
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp">
 
-</FrameLayout>
+        <ImageView
+            android:id="@+id/btnPhoto"
+            android:layout_width="175dp"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:src="@drawable/btn_photo"
+            app:layout_constraintEnd_toStartOf="@id/btnVideo"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/chakra_petch_medium"
+            android:text="@string/photo"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            app:layout_constraintBottom_toBottomOf="@id/btnPhoto"
+            app:layout_constraintEnd_toEndOf="@id/btnPhoto"
+            app:layout_constraintStart_toStartOf="@id/btnPhoto" />
+
+        <ImageView
+            android:id="@+id/btnVideo"
+            android:layout_width="175dp"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:src="@drawable/btn_video"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@id/btnPhoto"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/chakra_petch_medium"
+            android:text="@string/video"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            app:layout_constraintBottom_toBottomOf="@id/btnVideo"
+            app:layout_constraintEnd_toEndOf="@id/btnVideo"
+            app:layout_constraintStart_toStartOf="@id/btnVideo" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="18dp">
+
+        <ImageView
+            android:id="@+id/btnIPTV"
+            android:layout_width="175dp"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:src="@drawable/btn_iptv"
+            app:layout_constraintEnd_toStartOf="@id/btnYoutube"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/chakra_petch_medium"
+            android:text="IP TV"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            app:layout_constraintBottom_toBottomOf="@id/btnIPTV"
+            app:layout_constraintEnd_toEndOf="@id/btnIPTV"
+            app:layout_constraintStart_toStartOf="@id/btnIPTV" />
+
+        <ImageView
+            android:id="@+id/btnYoutube"
+            android:layout_width="175dp"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:src="@drawable/btn_yt"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@id/btnIPTV"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/chakra_petch_medium"
+            android:text="@string/youtube"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            app:layout_constraintBottom_toBottomOf="@id/btnYoutube"
+            app:layout_constraintEnd_toEndOf="@id/btnYoutube"
+            app:layout_constraintStart_toStartOf="@id/btnYoutube" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</LinearLayout>

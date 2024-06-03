@@ -5,6 +5,8 @@ import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import android.widget.CompoundButton
+import com.connectsdk.sampler.base.Common
 import com.connectsdk.sampler.databinding.FragmentSettingBinding
 
 class SettingFragment : Fragment() {
@@ -16,5 +18,11 @@ class SettingFragment : Fragment() {
     ): View {
         binding = FragmentSettingBinding.inflate(inflater, container, false)
         return binding.root
+    }
+
+    override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
+        super.onViewCreated(view, savedInstanceState)
+        binding.swSetting.isChecked = Common.getHaptic(requireContext())
+        binding.swSetting.setOnCheckedChangeListener { _, p1 -> Common.setHaptic(requireContext(), p1) }
     }
 }

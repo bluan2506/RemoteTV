@@ -8,7 +8,11 @@ import androidx.recyclerview.widget.RecyclerView.ViewHolder
 import com.connectsdk.device.ConnectableDevice
 import com.connectsdk.sampler.databinding.ItemDeviceBinding
 
-class SearchAdapter (private var context: Context, private val deviceList: ArrayList<ConnectableDevice>) :
+class SearchAdapter(
+    private var context: Context,
+    private val deviceList: ArrayList<ConnectableDevice>,
+    private val click: (ConnectableDevice) -> Unit
+) :
     RecyclerView.Adapter<SearchAdapter.ViewHolder>() {
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ViewHolder {
         val binding = ItemDeviceBinding.inflate(LayoutInflater.from(parent.context), parent, false)
@@ -21,7 +25,8 @@ class SearchAdapter (private var context: Context, private val deviceList: Array
 
     override fun onBindViewHolder(holder: ViewHolder, position: Int) {
         holder.binding.txtName.text = deviceList[position].friendlyName
-        holder.binding.txtIP.text = deviceList[position].lastKnownIPAddress
+        holder.binding.txtIP.text = deviceList[position].lastKnownIPAddress + " " + deviceList[position].serviceId
+        holder.binding.root.setOnClickListener { click.invoke(deviceList[position]) }
     }
 
     fun insertDevice(item: ConnectableDevice) {

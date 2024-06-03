@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\Luaan\\AndroidStudioProjects\\connectsdk\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v26\\values-v26.xml",
+            "outputFile": "D:\\PercasApp\\RemoteTV\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v26\\values-v26.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Luaan\\.gradle\\caches\\transforms-3\\bcea046459601d91c1c11643217ba0d6\\transformed\\appcompat-1.6.1\\res\\values-v26\\values-v26.xml",
+                    "source": "C:\\Users\\LEGION\\.gradle\\caches\\transforms-3\\bcea046459601d91c1c11643217ba0d6\\transformed\\appcompat-1.6.1\\res\\values-v26\\values-v26.xml",
                     "from": {
                         "startLines": "2,3,4,8,12,16",
                         "startColumns": "4,4,4,4,4,4",

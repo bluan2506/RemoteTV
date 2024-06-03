@@ -14,6 +14,7 @@
     <uses-permission android:name="android.permission.CHANGE_WIFI_MULTICAST_STATE" />
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
     <uses-permission android:name="android.permission.GET_TASKS" />
+    <uses-permission android:name="android.permission.VIBRATE" />
     <uses-permission android:name="com.google.android.gms.permission.AD_ID" /> <!-- Permissions for LG Cast Screen Mirroring -->
     <uses-permission android:name="android.permission.RECORD_AUDIO" />
     <uses-permission android:name="android.permission.FOREGROUND_SERVICE" /> <!-- Permissions for LG Cast Remote Camera -->
@@ -115,10 +116,17 @@
             </intent-filter>
         </service>
 
-        <receiver android:name="com.google.android.gms.cast.framework.media.MediaIntentReceiver" />
+        <receiver
+            android:name="com.google.android.gms.cast.framework.media.MediaIntentReceiver"
+            android:exported="false" />
 
-        <service android:name="com.google.android.gms.cast.framework.media.MediaNotificationService" />
-        <service android:name="com.google.android.gms.cast.framework.ReconnectionService" />
+        <service
+            android:name="com.google.android.gms.cast.framework.media.MediaNotificationService"
+            android:exported="false"
+            android:foregroundServiceType="mediaPlayback" />
+        <service
+            android:name="com.google.android.gms.cast.framework.ReconnectionService"
+            android:exported="false" />
 
         <uses-library
             android:name="android.ext.adservices"
@@ -274,6 +282,23 @@
                 <action android:name="androidx.work.diagnostics.REQUEST_DIAGNOSTICS" />
             </intent-filter>
         </receiver>
+
+        <service
+            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+            android:exported="false" >
+            <meta-data
+                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
+                android:value="cct" />
+        </service>
+        <service
+            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+            android:exported="false"
+            android:permission="android.permission.BIND_JOB_SERVICE" >
+        </service>
+
+        <receiver
+            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+            android:exported="false" />
         <receiver
             android:name="androidx.profileinstaller.ProfileInstallReceiver"
             android:directBootAware="false"

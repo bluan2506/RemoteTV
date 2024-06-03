@@ -6,6 +6,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
+import android.widget.Switch;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.viewbinding.ViewBinding;
@@ -43,10 +44,13 @@ public final class FragmentSettingBinding implements ViewBinding {
   @NonNull
   public final ImageView icTerm;
 
+  @NonNull
+  public final Switch swSetting;
+
   private FragmentSettingBinding(@NonNull LinearLayout rootView, @NonNull ImageView icApp,
       @NonNull ImageView icContact, @NonNull ImageView icHaptic, @NonNull ImageView icPolicy,
       @NonNull ImageView icQuestion, @NonNull ImageView icRestore, @NonNull ImageView icTell,
-      @NonNull ImageView icTerm) {
+      @NonNull ImageView icTerm, @NonNull Switch swSetting) {
     this.rootView = rootView;
     this.icApp = icApp;
     this.icContact = icContact;
@@ -56,6 +60,7 @@ public final class FragmentSettingBinding implements ViewBinding {
     this.icRestore = icRestore;
     this.icTell = icTell;
     this.icTerm = icTerm;
+    this.swSetting = swSetting;
   }
 
   @Override
@@ -133,8 +138,14 @@ public final class FragmentSettingBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.swSetting;
+      Switch swSetting = ViewBindings.findChildViewById(rootView, id);
+      if (swSetting == null) {
+        break missingId;
+      }
+
       return new FragmentSettingBinding((LinearLayout) rootView, icApp, icContact, icHaptic,
-          icPolicy, icQuestion, icRestore, icTell, icTerm);
+          icPolicy, icQuestion, icRestore, icTell, icTerm, swSetting);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

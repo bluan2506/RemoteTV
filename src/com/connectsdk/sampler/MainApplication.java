@@ -13,15 +13,17 @@ package com.connectsdk.sampler;
 
 import android.app.Application;
 
+import com.connectsdk.device.ConnectableDevice;
 import com.connectsdk.discovery.DiscoveryManager;
 import com.connectsdk.service.DIALService;
 
 public class MainApplication extends Application {
+
+    public static ConnectableDevice mTV = null;
     @Override
     public void onCreate() {
         DIALService.registerApp("Luan");
         DiscoveryManager.init(getApplicationContext());
-
         super.onCreate();
     }
 }

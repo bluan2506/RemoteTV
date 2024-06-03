@@ -53,4 +53,7 @@
     <string name="tv_not_connected">TV not Connected</string>
     <string name="connect">Connect</string>
     <string name="make_sure">Make sure your phone and TV are connected to \n the same wifi network.</string>
+    <string name="photo">Photo</string>
+    <string name="video">Video</string>
+    <string name="youtube">YouTube</string>
 </resources>

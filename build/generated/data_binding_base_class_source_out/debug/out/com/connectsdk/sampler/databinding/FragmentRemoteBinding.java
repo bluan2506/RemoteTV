@@ -70,6 +70,9 @@ public final class FragmentRemoteBinding implements ViewBinding {
   public final ImageView btnNext;
 
   @NonNull
+  public final ImageView btnOff;
+
+  @NonNull
   public final ImageView btnPause;
 
   @NonNull
@@ -126,11 +129,11 @@ public final class FragmentRemoteBinding implements ViewBinding {
       @NonNull ImageView btnD, @NonNull ImageView btnExit, @NonNull TextView btnExit1,
       @NonNull ImageView btnGuide, @NonNull ImageView btnHome, @NonNull ImageView btnInfo,
       @NonNull ImageView btnMenu, @NonNull ImageView btnMute, @NonNull ImageView btnNext,
-      @NonNull ImageView btnPause, @NonNull ImageView btnPlay, @NonNull ImageView btnPrevious,
-      @NonNull ImageView btnRec, @NonNull ImageView btnSetting, @NonNull ImageView btnStop,
-      @NonNull View btnTab1, @NonNull View btnTab2, @NonNull View btnTab3,
-      @NonNull ImageView btnVol, @NonNull ImageView btnYoutube, @NonNull ImageView img1,
-      @NonNull ConstraintLayout topTab1, @NonNull ConstraintLayout topTab2,
+      @NonNull ImageView btnOff, @NonNull ImageView btnPause, @NonNull ImageView btnPlay,
+      @NonNull ImageView btnPrevious, @NonNull ImageView btnRec, @NonNull ImageView btnSetting,
+      @NonNull ImageView btnStop, @NonNull View btnTab1, @NonNull View btnTab2,
+      @NonNull View btnTab3, @NonNull ImageView btnVol, @NonNull ImageView btnYoutube,
+      @NonNull ImageView img1, @NonNull ConstraintLayout topTab1, @NonNull ConstraintLayout topTab2,
       @NonNull ConstraintLayout topTab3, @NonNull LinearLayout viewNumber,
       @NonNull ImageView viewPad) {
     this.rootView = rootView;
@@ -150,6 +153,7 @@ public final class FragmentRemoteBinding implements ViewBinding {
     this.btnMenu = btnMenu;
     this.btnMute = btnMute;
     this.btnNext = btnNext;
+    this.btnOff = btnOff;
     this.btnPause = btnPause;
     this.btnPlay = btnPlay;
     this.btnPrevious = btnPrevious;
@@ -292,6 +296,12 @@ public final class FragmentRemoteBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.btnOff;
+      ImageView btnOff = ViewBindings.findChildViewById(rootView, id);
+      if (btnOff == null) {
+        break missingId;
+      }
+
       id = R.id.btnPause;
       ImageView btnPause = ViewBindings.findChildViewById(rootView, id);
       if (btnPause == null) {
@@ -396,9 +406,9 @@ public final class FragmentRemoteBinding implements ViewBinding {
 
       return new FragmentRemoteBinding((ConstraintLayout) rootView, btnA, btnB, btnBack, btnBack1,
           btnC, btnCh, btnCircle, btnD, btnExit, btnExit1, btnGuide, btnHome, btnInfo, btnMenu,
-          btnMute, btnNext, btnPause, btnPlay, btnPrevious, btnRec, btnSetting, btnStop, btnTab1,
-          btnTab2, btnTab3, btnVol, btnYoutube, img1, topTab1, topTab2, topTab3, viewNumber,
-          viewPad);
+          btnMute, btnNext, btnOff, btnPause, btnPlay, btnPrevious, btnRec, btnSetting, btnStop,
+          btnTab1, btnTab2, btnTab3, btnVol, btnYoutube, img1, topTab1, topTab2, topTab3,
+          viewNumber, viewPad);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

@@ -6,9 +6,14 @@ import android.os.Bundle
 import androidx.activity.enableEdgeToEdge
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
+import androidx.fragment.app.Fragment
+import androidx.fragment.app.FragmentActivity
+import androidx.fragment.app.FragmentPagerAdapter
 import androidx.viewpager2.widget.ViewPager2
 import com.connectsdk.sampler.BuildConfig
+import com.connectsdk.sampler.MainApplication.mTV
 import com.connectsdk.sampler.R
+import com.connectsdk.sampler.base.BaseFragment
 import com.connectsdk.sampler.databinding.ActivityMainBinding
 import com.example.remotetv.adapter.HomeAdapter
 import com.example.remotetv.base.BaseActivity
@@ -35,6 +40,18 @@ class MainActivity : BaseActivity() {
 
         binding.btnConnect.setOnClickListener {
             startActivity(Intent(this@MainActivity, ConnectActivity::class.java))
+        }
+    }
+
+    override fun onResume() {
+        super.onResume()
+        if (mTV != null) {
+            mTV.connect()
+            binding.btnConnect.setImageResource(R.drawable.ic_connected)
+//            binding.txtTab.text = mTV.friendlyName
+        } else {
+            binding.btnConnect.setImageResource(R.drawable.ic_no_connect)
+//            binding.txtTab.text = getString(R.string.tv_remote)
         }
     }
 
